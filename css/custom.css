@@ -2,6 +2,10 @@ div .logo-box {
   width: 20%;	
 }
 
+a:link {
+  color: #6610f2;
+}
+
 @media only screen and (max-width: 1200px){
   div .logo-box {
     width: 40%;	
