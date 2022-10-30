@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80mm"
+   height="130mm"
+   viewBox="0 0 80 130"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="timeline.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.402946"
+     inkscape:cx="124.02473"
+     inkscape:cy="256.95929"
+     inkscape:window-width="1359"
+     inkscape:window-height="847"
+     inkscape:window-x="81"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#4527a4;stroke:#000000;stroke-width:0.442;stroke-dasharray:none"
+       d="M 17.427343,19.334132 C 16.874036,111.84297 16.874036,111.84297 16.874036,111.84297"
+       id="path790" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.398142"
+       id="path952"
+       cx="17.384811"
+       cy="20.671047"
+       rx="1.7146102"
+       ry="1.7593193" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.398142"
+       id="path952-5"
+       cx="17.350395"
+       cy="37.15247"
+       rx="1.7146102"
+       ry="1.7593193" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.398142"
+       id="path952-5-2"
+       cx="17.161804"
+       cy="52.616959"
+       rx="1.7146102"
+       ry="1.7593193" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.398142"
+       id="path952-5-2-2"
+       cx="16.973213"
+       cy="66.94989"
+       rx="1.7146102"
+       ry="1.7593193" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.398142"
+       id="path952-5-2-2-7"
+       cx="16.973213"
+       cy="81.848602"
+       rx="1.7146102"
+       ry="1.7593193" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.398142"
+       id="path952-5-2-2-7-0"
+       cx="16.78462"
+       cy="95.99295"
+       rx="1.7146102"
+       ry="1.7593193" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.398142"
+       id="path952-5-2-2-7-0-2"
+       cx="16.784622"
+       cy="110.32588"
+       rx="1.7146102"
+       ry="1.7593193" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none"
+       x="22.253767"
+       y="21.499401"
+       id="text2114"><tspan
+         sodipodi:role="line"
+         id="tspan2112"
+         style="stroke-width:0.1;stroke-dasharray:none"
+         x="22.253767"
+         y="21.499401" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-dasharray:none"
+       x="6.6006942"
+       y="29.608826"
+       id="text9458"><tspan
+         sodipodi:role="line"
+         id="tspan9456"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.1"
+         x="6.6006942"
+         y="29.608826">2023</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.1"
+         x="6.6006942"
+         y="33.577576"
+         id="tspan9460">Q1</tspan></text>
+  </g>
+</svg>
