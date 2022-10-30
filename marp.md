@@ -7,6 +7,10 @@ backgroundColor: #ffffff
 backgroundImage: _url('https://marp.app/assets/hero-background.svg')
 style: |
 
+  a:link {
+    color: #6610f2;
+  }
+
   h1 {
     color: #4527a4;
   }
@@ -91,9 +95,6 @@ $$AI = knowledge + deep learning$$
 | 1.   | 84%               | PyTorch    |
 | 2.   | 16%               | Tensorflow |
 
-
-
-
 ---
 
 ## Design decisions
@@ -152,7 +153,33 @@ Allowing PyTorch AI models to interoperate directly with MongoDB
 
 ## Market
 
-### = Databases UNION Deeplearning
+### 2018
+
+![w:600](images/venn-now.svg)
+
+---
+
+## Market
+
+### 2023 onwards
+
+![w:600](images/venn-future.svg)
+
+---
+
+## Market
+
+### 2023 onwards
+
+![w:600](images/venn-future-logo-1.svg)
+
+---
+
+## Market
+
+### 2023 onwards
+
+![w:600](images/venn-future-logo-2.svg)
 
 ---
 
@@ -160,19 +187,26 @@ Allowing PyTorch AI models to interoperate directly with MongoDB
 
 ### Databases
 
-[SIZE]
+A huge market with unprecedented growth (source: [gartner.com](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-market-transformation-2021-the-big-picture/))
 
-[](https://www.statista.com/statistics/724611/worldwide-database-market/)
+| Year | Market Size ($) |
+| ---  | ---             |
+| 2022 | 80 Billion      |
+| 2020 | 65 Billion      |
+| 2017 | 39 Billion      |
 
 ---
 
 ## Market
 
-### Productionized Deep learning
+### AI software
 
-[SIZE]
+A burgeoning new market already with huge reach (source: [gartner.com](https://www.gartner.com/en/newsroom/press-releases/2021-11-22-gartner-forecasts-worldwide-artificial-intelligence-software-market-to-reach-62-billion-in-2022))
 
-???
+| Year | Market Size ($) |
+| ---  | ---             |
+| 2022 | 63 Billion      |
+| 2021 | 52 Billion      |
 
 ---
 

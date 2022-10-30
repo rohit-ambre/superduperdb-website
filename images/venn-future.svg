@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300mm"
+   height="214mm"
+   viewBox="0 0 300 214"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="venn-future.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.50800825"
+     inkscape:cx="578.73076"
+     inkscape:cy="516.72389"
+     inkscape:window-width="1309"
+     inkscape:window-height="847"
+     inkscape:window-x="81"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#4527a4;fill-opacity:0;stroke:#000000;stroke-width:2.16603;stroke-dasharray:none"
+       id="path234"
+       cx="89.581879"
+       cy="102.08169"
+       rx="59.811848"
+       ry="60.332676" />
+    <ellipse
+       style="fill:#4527a4;fill-opacity:0;stroke:#000000;stroke-width:2.24906;stroke-dasharray:none"
+       id="path234-5"
+       cx="180.72624"
+       cy="101.56084"
+       rx="62.374454"
+       ry="62.374458" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.81944px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="67.70723"
+       y="108.33157"
+       id="text1754"><tspan
+         sodipodi:role="line"
+         id="tspan1752"
+         style="font-size:8.81944px;fill:#000000;fill-opacity:1;stroke-width:0.3;stroke-dasharray:none"
+         x="67.70723"
+         y="108.33157">AI software</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8.81944px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="159.37932"
+       y="106.80286"
+       id="text1754-7"><tspan
+         sodipodi:role="line"
+         id="tspan1752-8"
+         style="font-size:8.81944px;fill:#000000;fill-opacity:1;stroke-width:0.3;stroke-dasharray:none"
+         x="159.37932"
+         y="106.80286">Databases</tspan></text>
+  </g>
+</svg>
