@@ -264,14 +264,6 @@ Allowing PyTorch AI models to interoperate directly with MongoDB
 
 ## Market
 
-### 2022
-
-![w:600](images/venn-future.svg)
-
----
-
-## Market
-
 ### 2022 
 
 ![w:600](images/venn-future-logo-1.svg)
