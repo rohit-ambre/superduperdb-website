@@ -55,25 +55,25 @@
        ry="62.374458" />
     <text
        xml:space="preserve"
-       style="font-size:8.81944px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
-       x="67.70723"
-       y="108.33157"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="59.374031"
+       y="107.28992"
        id="text1754"><tspan
          sodipodi:role="line"
          id="tspan1752"
-         style="font-size:8.81944px;fill:#000000;fill-opacity:1;stroke-width:0.3;stroke-dasharray:none"
-         x="67.70723"
-         y="108.33157">AI software</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke-width:0.3;stroke-dasharray:none"
+         x="59.374031"
+         y="107.28992">AI software</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:8.81944px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
-       x="159.37932"
-       y="106.80286"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       x="157.29602"
+       y="107.32368"
        id="text1754-7"><tspan
          sodipodi:role="line"
          id="tspan1752-8"
-         style="font-size:8.81944px;fill:#000000;fill-opacity:1;stroke-width:0.3;stroke-dasharray:none"
-         x="159.37932"
-         y="106.80286">Databases</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.81944px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke-width:0.3;stroke-dasharray:none"
+         x="157.29602"
+         y="107.32368">Databases</tspan></text>
   </g>
 </svg>

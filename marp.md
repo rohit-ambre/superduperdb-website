@@ -38,34 +38,57 @@ _backgroundColor: #4527a4;
 
 ## Problem 1
 
-### Traditional AI includes all knowledge *in* the model
+### AI workflow uses myriad tooling for each step of AI devs
 
-This is contrary to human intelligence, which incorporates external knowledge, and uses fluid intelligence to make inferences based on this external knowledge
+![center w:280](images/workflow.svg)
 
 ---
 
 ## Problem 2
 
-### MLops is highly fragmented
+### Each building block is supported by different providers
 
-- Training AI and going to production is hard
-- MLops has produced a plethora of tools which solve sub-problems of production
-- Tools are piecemeal, and exaggerate the significance of pseudo-issues
-
-![center width:350px](images/mlops_logos.svg)
+![center w:650](images/mlops_logos.svg)
 
 ---
 
 ## Problem 3
 
-### There is very little tooling which unifies *databases* and *deep learning*
+### Traditional AI includes all knowledge *in* the model
 
-Traditional workflow is:
+![center w:500](images/mozart.svg)
 
-- Dump all data out of the database
-- Train the model
-- Throw away the data
-- Deploy the model
+This is contrary to human intelligence, which incorporates external knowledge, and uses fluid intelligence to make inferences based on this external knowledge
+
+---
+
+## Problem 4
+
+### The latest AI allows AI to "look up" information
+
+![center w:500](images/mozart_reml.svg)
+
+From the internet, from books, from user feeback ...
+Current tooling cannot deal with this type of AI.
+
+---
+
+## Problem 5
+
+### The latest AI needs to interoperate closely with (a) data(base)
+
+- Reading new streaming data
+- Updating data on the fly
+- Pushing incoming data through the AI model
+
+---
+
+## Problem 6
+
+### There is only 1 solution which unifies machine learning and database
+
+[MindsDB](https://mindsdb.com/) allows users to build machine learning using SQL queries.
+It is not fully AI ready as SuperDuperDB is. It is not ready for the latest AI.
 
 ---
 
@@ -73,7 +96,7 @@ Traditional workflow is:
 
 ### SuperDuperDB
 
-$$AI = knowledge + deep learning$$
+![center](images/equation.svg)
 
 - Intelligent design decisions based on best in class database and deep learning solutions
 - PyTorch + MongoDB connector
@@ -81,6 +104,73 @@ $$AI = knowledge + deep learning$$
 ---
 
 ## The idea
+
+### Best in class database and deep learning framework united
+
+![center w:600](images/connector.svg)
+
+---
+
+## Unparalleled simplicity 
+
+### 1 python command to create deployed multimodal semantic search
+
+```python
+collection.create_semantic_index(
+    filter={'vertical': 'groceries'},
+    model=my_model,    # user supplied PyTorch model
+    keys=['query', 'product']
+)
+```
+
+---
+
+## Unparalleled simplicity 
+
+### Semantic indices available with `$like` operator
+
+```python
+results = collection.find({
+    'vertical': 'groceries',
+    'shop': 'cosco',
+    '$like': {'document': example, 'n': 10}
+})
+```
+
+---
+
+## Complete hackability
+
+### Any learning problem with (sub)records as datapoints is doable
+
+```python
+collection.create_model(
+    filter={'type': 'legal'},
+    model=second_model,
+    loss=my_loss,
+    metrics=my_metrics,
+)
+```
+
+---
+
+<style scoped>
+span {
+  font-size: 16px;
+}
+</style>
+
+## SuperDuperDB listens to inserts and updates
+
+### Model outputs are encoded in vanilla MongoDB
+
+```
+{'_id': ObjectId('6360d90ccc1a1937d5d8d428'),
+ 'information': {'image': <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x640 at 0x10B5CBBE0>,
+                 'price': '£112.03',
+                 'snippet': '',
+                 'title': 'Sealey Suspension Arm Lever VS3815 Vehicle'}}
+```
 
 ---
 
@@ -139,21 +229,34 @@ Allowing PyTorch AI models to interoperate directly with MongoDB
 - 1,000s citations on published top AI research
 - 10,000s of stars on GitHub open source
 - Exited AlephSearch (bootstrapped) 2020 with team of 2 for mid 7-figure
-- Gamut of technical skills: deep learning, software development, infrastructure, management, lean startup
+- Gamut of skills: deep learning, software development, infrastructure, management, lean startup
 
 ---
 
 ## Progress
 
+- Working prototype v0.1 in Python
+- Installable via Python `pip`
+- Initial traction via social media
+- Response positive
+
 ---
 
 ## Business models
+
+- Tiered managed cloud service
+- On premises solution with technical support
+- Model repository (like "App Store")
+- Sub-brands:
+  - **LegalTech/ NLP/ e-Commerce/ Biomedical/ Cybersecurity...**
+- Consulting
+- Certifications
 
 ---
 
 ## Market
 
-### 2018
+### 2019
 
 ![w:600](images/venn-now.svg)
 
@@ -161,7 +264,7 @@ Allowing PyTorch AI models to interoperate directly with MongoDB
 
 ## Market
 
-### 2023 onwards
+### 2022
 
 ![w:600](images/venn-future.svg)
 
@@ -169,7 +272,7 @@ Allowing PyTorch AI models to interoperate directly with MongoDB
 
 ## Market
 
-### 2023 onwards
+### 2022 
 
 ![w:600](images/venn-future-logo-1.svg)
 
@@ -212,10 +315,27 @@ A burgeoning new market already with huge reach (source: [gartner.com](https://w
 
 ## Timeline
 
-![](images/timeline.svg)
+![center](images/timeline.svg)
 
 ---
 
-## Growth schedule
+<style scoped>
+table {
+  font-size: 20px;
+}
+</style>
 
-[Numbers of employees etc.]
+## The Ask
+
+**1 year, 1.2 million €**
+
+
+| Item | Count | Cost unit (€) | Cost (€) |
+| ---  | ---   | ---       | ---      |
+| Python developer | 3 | 80,000 | 240,000 |
+| Cloud engineer | 2 | 90,000 | 180,000 |
+| Research scientist | 2 | 100,000 | 200,000 |
+| Marketing          | 1 | 60,000  | 60,000 |
+| Cloud Infrastructure     | 1 | 100,000 | 100,000 |
+| Management         | 1 | 100,000 | 100,000 |
+| Miscellaneous | 1 | 200,000 | 200,000 |
