@@ -277,7 +277,7 @@ Developers ***love*** these tools ***passionately***.
 A huge market with unprecedented growth (source: [gartner.com](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-market-transformation-2021-the-big-picture/))
 
 | Year | Market Size ($) |
-| ---  | ---             |
+| ---  | --------------- |
 | 2022 | 80 Billion      |
 | 2020 | 65 Billion      |
 | 2017 | 39 Billion      |
@@ -291,7 +291,7 @@ A huge market with unprecedented growth (source: [gartner.com](https://blogs.gar
 A burgeoning new market already with huge reach (source: [gartner.com](https://www.gartner.com/en/newsroom/press-releases/2021-11-22-gartner-forecasts-worldwide-artificial-intelligence-software-market-to-reach-62-billion-in-2022))
 
 | Year | Market Size ($) |
-| ---  | ---             |
+| ---- | --------------- |
 | 2022 | 63 Billion      |
 | 2021 | 52 Billion      |
 
@@ -313,13 +313,12 @@ table {
 
 **1 year, 1.2 million €**
 
-
-| Item | Count | Cost unit (€) | Cost (€) |
-| ---  | ---   | ---       | ---      |
-| Python developer | 3 | 80,000 | 240,000 |
-| Cloud engineer | 2 | 90,000 | 180,000 |
-| Research scientist | 2 | 100,000 | 200,000 |
-| Marketing          | 1 | 60,000  | 60,000 |
-| Cloud Infrastructure     | 1 | 100,000 | 100,000 |
-| Management         | 1 | 100,000 | 100,000 |
-| Miscellaneous | 1 | 200,000 | 200,000 |
+| Item                 | Count | Cost unit (€) | Cost (€) |
+| -------------------- | ----- | ------------- | -------- |
+| Python developer     | 3     | 80,000        | 240,000  |
+| Cloud engineer       | 2     | 90,000        | 180,000  |
+| Research scientist   | 2     | 100,000       | 200,000  |
+| Marketing            | 1     | 60,000        | 60,000   |
+| Cloud Infrastructure | 1     | 100,000       | 100,000  |
+| Management           | 1     | 100,000       | 100,000  |
+| Miscellaneous        | 1     | 200,000       | 200,000  |
