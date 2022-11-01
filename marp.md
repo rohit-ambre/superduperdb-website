@@ -212,14 +212,6 @@ Developers ***love*** these tools ***passionately***.
 
 ---
 
-## Idea
-
-### SuperDuperDB is *the* key ingredient
-
-Allowing PyTorch AI models to interoperate directly with MongoDB
-
----
-
 ## The founder
 
 ### Duncan Blythe
