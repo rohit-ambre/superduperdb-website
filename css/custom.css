@@ -29,16 +29,24 @@ div .footer-widget {
 div .code span {
   font-family: 'Roboto Mono';
   font-size: 16px;
-  background-color: #C5C5C5;
+  background-color: #ffffff;
   padding: 14px;
   /* border-radius: 5px 5px 5px; */
   /* border: 1px solid black; */
   display: inline-block;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 4px 7px 29px 4px;
 }
 
 div .code {
   overflow: hidden;
   filter: drop-shadow(0 0.5rem 0.25rem rgba(0, 0, 0, 0.2));
-  /* text-align: center; */
+}
+
+div .results-container {
+  padding-top: 5%;
+}
+
+div .width-over {
+  flex: 0 0 50%;
+  max-width: 50%;
 }
