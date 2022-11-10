@@ -36,25 +36,30 @@ _backgroundColor: #4527a4;
 
 ---
 
-## Problem 1
+## Integrating AI and applying AI to data is a huge problem
 
-### AI workflow uses myriad tooling for each step of AI devs
-
-![center w:280](images/workflow.svg)
+- Our experience with 10s of large organizations bears this out
+- Companies with 8 figure revenue waste 10s-100s of millions on doing this
 
 ---
 
-## Problem 2
+## The AI lifecycle can be highly complex and interdependent
 
-### Each building block is supported by different providers
+![center w:800](images/workflow.svg)
+
+---
+
+## Each building block is supported by different providers
 
 ![center w:650](images/mlops_logos.svg)
 
 ---
 
-## Problem 3
+## No existing solution supports these steps in a unified way
 
-### Traditional AI includes all knowledge *in* the model
+---
+
+## Traditional AI includes all knowledge *in* the model
 
 ![center w:500](images/mozart.svg)
 
@@ -62,9 +67,7 @@ This is contrary to human intelligence, which incorporates external knowledge, a
 
 ---
 
-## Problem 4
-
-### The latest AI allows AI to "look up" information
+## However, the latest developments allow AI to "look up" information
 
 ![center w:500](images/mozart_reml.svg)
 
@@ -73,47 +76,50 @@ Current tooling cannot deal with this type of AI.
 
 ---
 
-## Problem 5
+## This means new AI needs to interoperate closely with the data
 
-### The latest AI needs to interoperate closely with (a) data(base)
-
+- Looking up important insights from the data
 - Reading new streaming data
 - Updating data on the fly
 - Pushing incoming data through the AI model
 
 ---
 
-## Problem 6
-
-### There is only 1 solution which unifies machine learning and database
-
-[MindsDB](https://mindsdb.com/) allows users to build machine learning using SQL queries.
-It is not fully AI ready as SuperDuperDB is. It is not ready for the latest AI.
+## No existing solution can handle these needs
 
 ---
 
-## Solution
+# Introducing SuperDuperDB
 
-### SuperDuperDB
+---
+
+## SuperDuperDB
+
+### ...aims to revolutionize how companies and organizations work with and apply AI to their data
+
+---
+
+## SuperDuperDB
+
+### ...is based on the fact that *true AI* unites deep learning and data insights
 
 ![center](images/equation.svg)
 
-- Intelligent design decisions based on best in class database and deep learning solutions
-- PyTorch + MongoDB connector
-
 ---
 
-## The idea
+## SuperDuperDB
 
-### Best in class database and deep learning framework united
+### ...will unite best in class database and deep learning software
 
 ![center w:600](images/connector.svg)
 
 ---
 
-## Unparalleled simplicity 
+## SuperDuperDB
 
-### 1 python command to create deployed multimodal semantic search
+### ...will lead to deployments and development with never seen before simplicity
+
+1 python command creates deployed multimodal semantic search
 
 ```python
 collection.create_semantic_index(
@@ -125,9 +131,11 @@ collection.create_semantic_index(
 
 ---
 
-## Unparalleled simplicity 
+## SuperDuperDB
 
-### Semantic indices available with `$like` operator
+### ...will allow users to navigate data in a totally new way using the power of AI
+
+Semantic indices available with `$like` operator
 
 ```python
 results = collection.find({
@@ -139,9 +147,11 @@ results = collection.find({
 
 ---
 
-## Complete hackability
+## SuperDuperDB
 
-### Any learning problem with (sub)records as datapoints is doable
+### ...is infinitely modifiable
+
+...and makes any learning problem with (sub)records as datapoints doable
 
 ```python
 collection.create_model(
