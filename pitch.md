@@ -36,10 +36,10 @@ _backgroundColor: #4527a4;
 
 ---
 
-## Integrating AI and applying AI to data is a huge problem
+## Integrating AI and applying AI to data is a huge challenge
 
-- Our experience with 10s of large organizations bears this out
-- Companies with 8 figure revenue waste 10s-100s of millions on doing this
+- Our experience with scores of large organizations bears this out
+- Companies with 8 figure revenue waste 10s-100 of millions $ on doing this
 
 ---
 
@@ -71,8 +71,7 @@ This is contrary to human intelligence, which incorporates external knowledge, a
 
 ![center w:500](images/mozart_reml.svg)
 
-From the internet, from books, from user feeback ...
-Current tooling cannot deal with this type of AI.
+From the internet, from books, from user feedback ...
 
 ---
 
