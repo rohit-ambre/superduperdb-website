@@ -36,30 +36,37 @@ _backgroundColor: #4527a4;
 
 ---
 
-## Integrating AI and applying AI to data is a huge challenge
+# The current AI landscape is hampered by problems of 2 types
+
+1. No unified AI development possible
+1. Not ready for ongoing developments in AI
+
+---
+
+## 1. Integrating AI and applying AI to data is a huge challenge
 
 - Our experience with scores of large organizations bears this out
 - Companies with 8 figure revenue waste 10s-100 of millions $ on doing this
 
 ---
 
-## The AI lifecycle can be highly complex and interdependent
+## 1. The AI lifecycle can be highly complex and interdependent
 
 ![center w:800](images/workflow.svg)
 
 ---
 
-## Each building block is supported by different providers
+## 1. Each building block is supported by different providers
 
 ![center w:650](images/mlops_logos.svg)
 
 ---
 
-## No existing solution supports these steps in a unified way
+# *No open source solution supports these steps in a unified way*
 
 ---
 
-## Traditional AI includes all knowledge *in* the model
+## 2. Traditional AI includes all knowledge *in* the model
 
 ![center w:500](images/mozart.svg)
 
@@ -67,7 +74,7 @@ This is contrary to human intelligence, which incorporates external knowledge, a
 
 ---
 
-## However, the latest developments allow AI to "look up" information
+## 2. However, the latest developments allow AI to "look up" information
 
 ![center w:500](images/mozart_reml.svg)
 
@@ -75,7 +82,7 @@ From the internet, from books, from user feedback ...
 
 ---
 
-## This means new AI needs to interoperate closely with the data
+## 2. This means new AI needs to interoperate closely with the data
 
 - Looking up important insights from the data
 - Reading new streaming data
@@ -84,7 +91,7 @@ From the internet, from books, from user feedback ...
 
 ---
 
-## No existing solution can handle these needs
+# *No existing solution can handle these needs*
 
 ---
 
@@ -163,27 +170,7 @@ collection.create_model(
 
 ---
 
-<style scoped>
-span {
-  font-size: 16px;
-}
-</style>
-
-## SuperDuperDB listens to inserts and updates
-
-### Model outputs are encoded in vanilla MongoDB
-
-```
-{'_id': ObjectId('6360d90ccc1a1937d5d8d428'),
- 'information': {'image': <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=640x640 at 0x10B5CBBE0>,
-                 'price': '£112.03',
-                 'snippet': '',
-                 'title': 'Sealey Suspension Arm Lever VS3815 Vehicle'}}
-```
-
----
-
-## Design decisions
+## SuperDuperDB is based on sleek and shrewd design decisions
 
 ### PyTorch is the most popular AI framework among experts
 
@@ -196,7 +183,7 @@ span {
 
 ---
 
-## Design decisions
+## SuperDuperDB is based on sleek and shrewd design decisions
 
 ### MongoDB is the most popular document store in use today
 
@@ -211,17 +198,17 @@ span {
 
 ---
 
-## Design decisions
+## SuperDuperDB is based on sleek and shrewd design decisions
 
-### Experience building agile AI in Academia, Zalando, LF1 and Attraqt
+### Experience building agile AI in Academia, Zalando, LF1 and Attraqt has allowed us to test these choices
 
-PyTorch together with MongoDB allow for deep learning built ***with ease on a shoestring***.
+PyTorch together with MongoDB allow for deep learning built ***with ease, on a shoestring***.
 
 Developers ***love*** these tools ***passionately***.
 
 ---
 
-## The founder
+## SuperDuperDB draws on over a decade of experience in this area
 
 ### Duncan Blythe
 
@@ -234,7 +221,9 @@ Developers ***love*** these tools ***passionately***.
 
 ---
 
-## Progress
+## SuperDuperDB is already in full swing
+
+### Progress
 
 - Working prototype v0.1 in Python
 - Installable via Python `pip`
@@ -243,7 +232,7 @@ Developers ***love*** these tools ***passionately***.
 
 ---
 
-## Business models
+## SuperDuperDB enables a range of well tested business models
 
 - Tiered managed cloud service
 - On premises solution with technical support
@@ -255,23 +244,24 @@ Developers ***love*** these tools ***passionately***.
 
 ---
 
-## Market
+## The potential market for SuperDuperDB is huge
 
 ### 2019
 
-![w:600](images/venn-now.svg)
+![w:400](images/venn-now.svg)
 
 ---
 
-## Market
+
+## ... and rapidly growing
 
 ### 2022 
 
-![w:600](images/venn-future-logo-1.svg)
+![w:400](images/venn-future-logo-1.svg)
 
 ---
 
-## Market
+## ... and rapidly growing
 
 ### 2023 onwards
 
@@ -279,11 +269,11 @@ Developers ***love*** these tools ***passionately***.
 
 ---
 
-## Market
+## With SuperDuperDB we aim to
 
-### Databases
+### ... make large in-roads into the managed database market
 
-A huge market with unprecedented growth (source: [gartner.com](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-market-transformation-2021-the-big-picture/))
+Managed databases is a huge market with unprecedented growth (source: [gartner.com](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-market-transformation-2021-the-big-picture/))
 
 | Year | Market Size ($) |
 | ---  | --------------- |
@@ -293,11 +283,9 @@ A huge market with unprecedented growth (source: [gartner.com](https://blogs.gar
 
 ---
 
-## Market
+## ...and the managed AI software market
 
-### AI software
-
-A burgeoning new market already with huge reach (source: [gartner.com](https://www.gartner.com/en/newsroom/press-releases/2021-11-22-gartner-forecasts-worldwide-artificial-intelligence-software-market-to-reach-62-billion-in-2022))
+AI software is a burgeoning new market already with huge reach (source: [gartner.com](https://www.gartner.com/en/newsroom/press-releases/2021-11-22-gartner-forecasts-worldwide-artificial-intelligence-software-market-to-reach-62-billion-in-2022))
 
 | Year | Market Size ($) |
 | ---- | --------------- |
@@ -317,6 +305,7 @@ table {
   font-size: 20px;
 }
 </style>
+
 
 ## The Ask
 
