@@ -208,7 +208,7 @@ Developers ***love*** these tools ***passionately***.
 
 ---
 
-## SuperDuperDB draws on over a decade of experience in this area
+## Team: SuperDuperDB draws on over a decade of experience in managed AI
 
 ### Duncan Blythe
 
@@ -216,8 +216,20 @@ Developers ***love*** these tools ***passionately***.
 - MMathPhil, MSc, PhD
 - 1,000s citations on published top AI research
 - 10,000s of stars on GitHub open source
-- Exited AlephSearch (bootstrapped) 2020 with team of 2 for mid 7-figure
-- Gamut of skills: deep learning, software development, infrastructure, management, lean startup
+- Co-founded and exited AlephSearch (bootstrapped) 2020 to Attraqt PLC with team of 2 for mid 7-figure
+- Deep learning, software development, infrastructure, technical lead
+
+---
+
+## Team: SuperDuperDB will profit from the involvement of successful entrepreneurs
+
+### Timo Hagenow
+
+- MBA, Hamburg Media School
+- Founded Yieldlove GmbH 2013 and scaled to 8 figure revenue
+- Exited Yieldlove GmbH to Ströer (market leader)
+- Co-founded and exited AlephSearch (bootstrapped) 2020 to Attraqt PLC with team of 2 for mid 7-figure
+- Operational, sales, marketing, strategy, product expertise
 
 ---
 
