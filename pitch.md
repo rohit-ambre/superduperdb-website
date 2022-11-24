@@ -255,12 +255,25 @@ Developers ***love*** these tools ***passionately***.
 - Tiered managed cloud service
 - On premises solution with technical support
 - Model repository (like "App Store")
-- Sub-brands:
-  - **LegalTech/ NLP/ e-Commerce/ Biomedical/ Cybersecurity...**
 - Consulting
 - Certifications
 
 ---
+
+## Using SuperDuperDB we will be instantly enabled wherever AI provides substantial value
+
+- LegalTech
+  - Advanced document analysis
+- e-Commerce
+  - Search, Navigation, Recommendation
+- Biomedical
+  - Semantic image segmentation
+- Cybersecurity
+  - Fraud detection
+
+
+---
+
 
 ## The potential market for SuperDuperDB is huge
 

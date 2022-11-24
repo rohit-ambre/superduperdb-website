@@ -50,3 +50,7 @@ div .width-over {
   flex: 0 0 50%;
   max-width: 50%;
 }
+
+.page-title-empty {
+  padding: 325px 0px 260px 0px;
+}
