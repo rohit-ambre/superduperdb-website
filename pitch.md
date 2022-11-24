@@ -25,6 +25,11 @@ style: |
     display: block;
     margin: 0 auto;
   }
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0rem;
+  }
   
 ---
 
@@ -36,27 +41,28 @@ _backgroundColor: #4527a4;
 
 ---
 
-# The current AI landscape is hampered by problems of 2 types
+## Integrating AI and applying AI to data is a huge challenge
 
-1. No unified AI development possible
-1. Not ready for ongoing developments in AI
+<div class="columns">
+<div style="margin-top: 10%;">
+
+The AI lifecycle is highly complex, interdependent but fragmented.
+Various stages in the lifecycle are supported by distinct competing
+providers.
+
+Companies with 8 figure revenue waste 10s-100 of millions $ on doing this
+
+</div>
+<div style="margin-top: 5%">
+
+![left](images/workflow.svg)
+
+</div>
+</div>
 
 ---
 
-## 1. Integrating AI and applying AI to data is a huge challenge
-
-- Our experience with scores of large organizations bears this out
-- Companies with 8 figure revenue waste 10s-100 of millions $ on doing this
-
----
-
-## 1. The AI lifecycle can be highly complex and interdependent
-
-![center w:800](images/workflow.svg)
-
----
-
-## 1. Each building block is supported by different providers
+## The different providers are fragmented and not interoperable
 
 ![center w:650](images/mlops_logos.svg)
 
@@ -66,7 +72,7 @@ _backgroundColor: #4527a4;
 
 ---
 
-## 2. Traditional AI includes all knowledge *in* the model
+## Traditional AI includes all knowledge *in* the model
 
 ![center w:500](images/mozart.svg)
 
@@ -74,7 +80,7 @@ This is contrary to human intelligence, which incorporates external knowledge, a
 
 ---
 
-## 2. However, the latest developments allow AI to "look up" information
+## However, the latest developments will allow AI to "look up" information
 
 ![center w:500](images/mozart_reml.svg)
 
@@ -82,7 +88,7 @@ From the internet, from books, from user feedback ...
 
 ---
 
-## 2. This means new AI needs to interoperate closely with the data
+## This means new AI needs to interoperate closely with the data
 
 - Looking up important insights from the data
 - Reading new streaming data
