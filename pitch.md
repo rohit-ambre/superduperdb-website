@@ -62,9 +62,24 @@ Companies with 8 figure revenue waste 10s-100 of millions $ on doing this
 
 ---
 
-## The different providers are fragmented and not interoperable
+## Integrating AI and applying AI to data is a huge challenge
 
-![center w:650](images/mlops_logos.svg)
+<div class="columns">
+<div style="margin-top: 10%;">
+
+The AI lifecycle is highly complex, interdependent but fragmented.
+Various stages in the lifecycle are supported by distinct competing
+providers.
+
+Companies with 8 figure revenue waste 10s-100 of millions $ on doing this
+
+</div>
+<div style="margin-top: 5%">
+
+![left](images/workflow_logos.svg)
+
+</div>
+</div>
 
 ---
 
@@ -129,6 +144,14 @@ From the internet, from books, from user feedback ...
 
 ## SuperDuperDB
 
+### How it works...
+
+![center w:400](images/cycle.svg)
+
+---
+
+## SuperDuperDB
+
 ### ...will lead to deployments and development with never seen before simplicity
 
 1 python command creates deployed multimodal semantic search
@@ -173,44 +196,6 @@ collection.create_model(
     metrics=my_metrics,
 )
 ```
-
----
-
-## SuperDuperDB is based on sleek and shrewd design decisions
-
-### PyTorch is the most popular AI framework among experts
-
-(Source: [horace.io](http://horace.io/pytorch-vs-tensorflow/))
-
-| Rank | Percentage Papers | Framework  |
-| ---- | ----------------- | ---------- |
-| 1.   | 84%               | PyTorch    |
-| 2.   | 16%               | Tensorflow |
-
----
-
-## SuperDuperDB is based on sleek and shrewd design decisions
-
-### MongoDB is the most popular document store in use today
-
-(Source: [db-engines.com](https://db-engines.com/en/ranking/document+store))
-
-| Rank | Database                  | Score |
-| ---- | ------------------------- | ----- |
-| 1.   | MongoDB                   | 486   |
-| 2.   | Amazon DynamoDB           | 88    |
-| 3.   | Databricks                | 58    |
-| 4.   | Microsoft Azure Cosmos DB | 40    |
-
----
-
-## SuperDuperDB is based on sleek and shrewd design decisions
-
-### Experience building agile AI in Academia, Zalando, LF1 and Attraqt has allowed us to test these choices
-
-PyTorch together with MongoDB allow for deep learning built ***with ease, on a shoestring***.
-
-Developers ***love*** these tools ***passionately***.
 
 ---
 
@@ -306,11 +291,8 @@ Developers ***love*** these tools ***passionately***.
 
 Managed databases is a huge market with unprecedented growth (source: [gartner.com](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-market-transformation-2021-the-big-picture/))
 
-| Year | Market Size ($) |
-| ---  | --------------- |
-| 2022 | 80 Billion      |
-| 2020 | 65 Billion      |
-| 2017 | 39 Billion      |
+
+![width:600](images/dbms_by_year.svg)
 
 ---
 
@@ -318,10 +300,7 @@ Managed databases is a huge market with unprecedented growth (source: [gartner.c
 
 AI software is a burgeoning new market already with huge reach (source: [gartner.com](https://www.gartner.com/en/newsroom/press-releases/2021-11-22-gartner-forecasts-worldwide-artificial-intelligence-software-market-to-reach-62-billion-in-2022))
 
-| Year | Market Size ($) |
-| ---- | --------------- |
-| 2022 | 63 Billion      |
-| 2021 | 52 Billion      |
+![w:750](images/ai_software_by_year.svg)
 
 ---
 
@@ -351,3 +330,41 @@ table {
 | Cloud Infrastructure | 1     | 100,000       | 100,000  |
 | Management           | 1     | 100,000       | 100,000  |
 | Miscellaneous        | 1     | 200,000       | 200,000  |
+
+<!-- ---
+
+## SuperDuperDB is based on sleek and shrewd design decisions
+
+### PyTorch is the most popular AI framework among experts
+
+(Source: [horace.io](http://horace.io/pytorch-vs-tensorflow/))
+
+| Rank | Percentage Papers | Framework  |
+| ---- | ----------------- | ---------- |
+| 1.   | 84%               | PyTorch    |
+| 2.   | 16%               | Tensorflow |
+
+---
+
+## SuperDuperDB is based on sleek and shrewd design decisions
+
+### MongoDB is the most popular document store in use today
+
+(Source: [db-engines.com](https://db-engines.com/en/ranking/document+store))
+
+| Rank | Database                  | Score |
+| ---- | ------------------------- | ----- |
+| 1.   | MongoDB                   | 486   |
+| 2.   | Amazon DynamoDB           | 88    |
+| 3.   | Databricks                | 58    |
+| 4.   | Microsoft Azure Cosmos DB | 40    |
+
+---
+
+## SuperDuperDB is based on sleek and shrewd design decisions
+
+### Experience building agile AI in Academia, Zalando, LF1 and Attraqt has allowed us to test these choices
+
+PyTorch together with MongoDB allow for deep learning built ***with ease, on a shoestring***.
+
+Developers ***love*** these tools ***passionately***. -->

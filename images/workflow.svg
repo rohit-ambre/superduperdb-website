@@ -25,14 +25,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81111577"
-     inkscape:cx="501.77794"
+     inkscape:cx="503.01081"
      inkscape:cy="339.65558"
      inkscape:window-width="1359"
      inkscape:window-height="847"
      inkscape:window-x="81"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g2161" />
   <defs
      id="defs2">
     <marker
@@ -313,7 +313,7 @@
            id="tspan2055"
            style="stroke-width:0.1"
            x="37.406715"
-           y="119.2339">predictions</tspan></text>
+           y="119.2339">evaluation</tspan></text>
     </g>
     <g
        id="g2166"
