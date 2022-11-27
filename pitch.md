@@ -264,6 +264,36 @@ AI software is a burgeoning new market already with huge reach (source: [gartner
 
 ---
 
+## Team: a proven combination
+<div class="columns">
+<div style="margin-top: 10%;">
+
+<center><b>Duncan Blythe</b></center>
+
+![center w:200](images/duncan.jpeg)
+
+- CEO
+- CTO (provisional)
+- Communication with developer community
+
+</div>
+<div style="margin-top: 10%">
+
+<center><b>Timo Hagenow</b></center>
+
+![center w:200](images/timo.jpeg)
+
+- COO
+- Growth hacking, marketing, sales
+- Communication with business community
+
+</div>
+</div>
+
+
+
+---
+
 ## Team: SuperDuperDB draws on over a decade of experience in managed AI
 
 ### Duncan Blythe [:link:](https://www.linkedin.com/in/duncan-blythe-71877312b/)
