@@ -47,6 +47,7 @@ _backgroundColor: #4527a4;
 <div style="margin-top: 10%;">
 
 The AI lifecycle is highly complex, interdependent but fragmented.
+
 Various stages in the lifecycle are supported by distinct competing
 providers.
 
