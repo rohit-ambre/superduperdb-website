@@ -69,6 +69,7 @@ Huge overhead because different workflows and tooling fragmented.
 <div style="margin-top: 10%;">
 
 The AI lifecycle is highly complex, interdependent but fragmented.
+
 Various stages in the lifecycle are supported by distinct competing
 providers.
 
@@ -89,7 +90,7 @@ Huge overhead because different workflows and tooling fragmented.
 <div class="columns">
 <div style="margin-top: 5%;">
 
-**New models can now do these things:**
+**New models can now (in principle) do these things:**
 
 - Search semantically for new information streaming live
 - Handle unseen datapoints 
