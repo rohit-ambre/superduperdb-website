@@ -128,7 +128,7 @@ and comprehension.
 
 - Data ingestion and processing is no longer required
 - AI models can perform entirely new operations by having access to all data 
-- AI can handle new incoming data point and streaming
+- AI can handle new incoming data and streaming
 
 ---
 
