@@ -143,7 +143,7 @@ and comprehension.
 
 ## Example: with SuperDuperDB instantly deploy a full-stack of e-Commerce AI
 
-(*Write e-commerce stuff in the boxes*)
+<!-- (*Write e-commerce stuff in the boxes*) -->
 
 ![center w:950](images/cycle-linear-e-commerce.svg)
 
