@@ -41,18 +41,12 @@ _backgroundColor: #4527a4;
 
 ---
 
-## Problem: Integrating AI and applying AI to data is a huge challenge
+## Integrating AI and applying AI to data is a huge challenge
 
 <div class="columns">
 <div style="margin-top: 10%;">
 
 The AI lifecycle is highly complex, interdependent but fragmented.
-
-Various stages in the lifecycle are supported by distinct competing
-providers.
-
-Huge overhead because different workflows and tooling fragmented.
-
 
 </div>
 <div style="margin-top: 5%">
@@ -64,17 +58,12 @@ Huge overhead because different workflows and tooling fragmented.
 
 ---
 
-## Problem: Integrating AI and applying AI to data is a huge challenge
+## Integrating AI and applying AI to data is a huge challenge
 
 <div class="columns">
 <div style="margin-top: 10%;">
 
 The AI lifecycle is highly complex, interdependent but fragmented.
-
-Various stages in the lifecycle are supported by distinct competing
-providers.
-
-Huge overhead because different workflows and tooling fragmented.
 
 </div>
 <div style="margin-top: 5%">
@@ -86,17 +75,14 @@ Huge overhead because different workflows and tooling fragmented.
 
 ---
 
-## Problem: Traditional AI is not able to work directly with incoming information
+## Current solutions don’t enable efficient interoperability between data and models 
 
 <div class="columns">
 <div style="margin-top: 5%;">
 
-**New models can now (in principle) do these things:**
-
-- Search semantically for new information streaming live
-- Handle unseen datapoints 
-- Lookup information in databases
-- Synthesise output based on information found in a database
+- Data ingestion and processing causes huge overhead 
+- No intelligent information lookup on the fly by the model
+- No handling of new data points (streaming)
 
 </div>
 <div style="margin-top: 10%">
@@ -108,15 +94,13 @@ Huge overhead because different workflows and tooling fragmented.
 
 ---
 
-## Problem: Companies do not own their data and AI
+## Companies do not own their data and AI
 
-### Companies want:
+**Companies are missing:**
 
-- 100% control over their deployments and development
-- To avoid vendor lock-in by cloud providers
-- Transparency & auditability on what code and infrastructure is applied to their data
-
-*They want to do these things in an agile and modular fashion.*
+- 100% control over their infrastructure and deployments
+- Avoidance of vendor lock-in by cloud and SAAS providers
+- Transparency & auditability over what happens with their data
 
 ---
 
@@ -130,7 +114,7 @@ Huge overhead because different workflows and tooling fragmented.
 
 ---
 
-## SuperDuperDB
+## SuperDuperDB: Integrating AI directly into your database
 
 ### Uniting best in class database and deep learning software
 
@@ -138,53 +122,34 @@ Huge overhead because different workflows and tooling fragmented.
 
 ---
 
-## Solution: SuperDuperDB is a unified environment for the entire AI-data workflow
+## Computation of new output happens directly on the data - outputs are stored directly with the input data
 
-![center w:400](images/cycle.svg)
+### SuperDuperDB is a unified environment for the entire AI-data workflow
 
----
-
-## Solution: SuperDuperDB enables brand-new varieties of AI model
-
-<div class="columns">
-<div style="margin-top: 5%;">
-
-**With SuperDuperDB models can be made to do these things:**
-
-- Search semantically for new information streaming live
-- Handle unseen datapoints 
-- Lookup information in databases
-- Synthesise output based on information found in a database
-
-</div>
-<div style="margin-top: 10%">
-
-![](images/mozart_reml.svg)
-
-</div>
-</div>
+![center w:900](images/cycle-linear.svg)
 
 ---
 
-## Solution: Owning data and AI
+## SuperDuperDB minimizes overhead and revolutionizes AI capabilities
+
+- Data ingestion and processing is no longer required
+- AI models can perform entirely new operations by having access to all data 
+- AI can handle new incoming data point and streaming
+
+---
+
+## SuperDuperDB will allow companies to fully own their AI and data stack
 
 ### The SuperDuperDB core codebase will be open sourced under Apache License 2.0
 
-Companies will be able to deploy their AI and models in a unified way in their own data centers.
-
-Solutions will no longer be intransparent and locked in behind a SAAS or cloud provider.
-
----
-
-## Example: e-Commerce AI
-
-![center w:500](images/cycle_e-commerce.svg)
+- Companies will be able to deploy their AI and models in a unified way in their own data centers.
+- Their entire stack will be transparent and no longer locked in behind SAAS and cloud providers.
 
 ---
 
-## Example: e-Commerce AI
+## e-Commerce AI
 
-![center w:500](images/cycle_e-commerce_overlay.svg)
+![center w:950](images/cycle-linear-e-commerce.svg)
 
 ---
 
@@ -198,7 +163,7 @@ Solutions will no longer be intransparent and locked in behind a SAAS or cloud p
 
 ---
 
-## Using SuperDuperDB we will be instantly enabled wherever AI provides substantial value
+## Using SuperDuperDB will be able to offer outstanding offerings wherever AI provides substantial value
 
 - LegalTech
   - Advanced document analysis
@@ -261,12 +226,12 @@ AI software is a burgeoning new market already with huge reach (source: [gartner
 
 - Working prototype v0.1 in Python
 - Installable via Python `pip`
-- Initial traction via social media
-- Response positive
+- Outstanding feedback from inner developer circle
 
 ---
 
-## Team: a proven combination
+## A proven team
+
 <div class="columns">
 <div style="margin-top: 10%;">
 
@@ -296,7 +261,7 @@ AI software is a burgeoning new market already with huge reach (source: [gartner
 
 ---
 
-## Team: SuperDuperDB draws on over a decade of experience in managed AI
+## SuperDuperDB draws on over a decade of experience in managed AI
 
 ### Duncan Blythe [:link:](https://www.linkedin.com/in/duncan-blythe-71877312b/)
 
@@ -308,7 +273,8 @@ AI software is a burgeoning new market already with huge reach (source: [gartner
 
 ---
 
-## Team: SuperDuperDB will profit from the involvement of successful entrepreneurs
+## SuperDuperDB will profit from experience in scaling businesses
+
 
 ### Timo Hagenow [:link:](https://www.linkedin.com/in/timohagenow/)
 
