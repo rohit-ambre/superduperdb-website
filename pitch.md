@@ -220,6 +220,12 @@ AI software is a burgeoning new market already with huge reach (source: [gartner
 
 ---
 
+## Specialized functionalities will dominate AI and data in selected verticals
+
+![center w:700](images/verticals-horizontals.svg)
+
+---
+
 ## SuperDuperDB is already in full swing
 
 ### Progress
