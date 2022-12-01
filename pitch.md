@@ -254,7 +254,7 @@ AI software is a burgeoning new market already with huge reach (source: [gartner
 
 <center><b>Timo Hagenow</b></center>
 
-![center w:200](images/timo.jpeg)
+![center w:200](images/timo.jpg)
 
 - COO
 - Growth hacking, marketing, sales
