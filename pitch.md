@@ -35,59 +35,43 @@ style: |
 
 <!-- _class: lead 
 _backgroundColor: #4527a4;
+_style: | 
+  h1 {
+    text-color: #000000;
+  }
 -->
 
 ![bg center w:800](logos/white_on_purple.svg)
 
----
-
-## Integrating AI and applying AI to data is a huge challenge
-
-<div class="columns">
-<div style="margin-top: 10%;">
-
-The AI lifecycle is highly complex, interdependent but fragmented.
-
-</div>
-<div style="margin-top: 5%">
-
-![left](images/workflow.svg)
-
-</div>
-</div>
+<center>
+  <div style="color: white; padding-top: 18%;">
+    <i>Superpower your database with AI</i>
+  </div>
+</center>
 
 ---
 
 ## Integrating AI and applying AI to data is a huge challenge
 
-<div class="columns">
-<div style="margin-top: 10%;">
-
 The AI lifecycle is highly complex, interdependent but fragmented.
 
-</div>
-<div style="margin-top: 5%">
-
-![left](images/workflow_logos.svg)
-
-</div>
-</div>
+![center](images/workflow_logos.svg)
 
 ---
 
 ## Current solutions don’t enable efficient interoperability between data and models 
 
-<div class="columns">
-<div style="margin-top: 5%;">
+<!-- <div class="columns">
+<div style="margin-top: 5%;"> -->
 
 - Data ingestion and processing causes huge overhead 
 - No intelligent information lookup on the fly by the model
 - No handling of new data points (streaming)
-
+<!-- 
 </div>
 <div style="margin-top: 10%">
 
-![](images/mozart_reml.svg)
+![](images/mozart_reml.svg) -->
 
 </div>
 </div>
@@ -96,7 +80,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ## Companies do not own their data and AI
 
-**Companies are missing:**
+**Companies are missing**
 
 - 100% control over their infrastructure and deployments
 - Avoidance of vendor lock-in by cloud and SAAS providers
@@ -104,13 +88,13 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
-## Data and AI need to be fully united in order to maximize their value
+# Data and AI need to be fully united in order to maximize their value
 
 ---
 
-## SuperDuperDB
+# SuperDuperDB
 
-### The all encompassing AI-database solution
+### The first fully fledged AI-database solution
 
 ---
 
@@ -122,9 +106,19 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
-## Computation of new output happens directly on the data - outputs are stored directly with the input data
+## A solution for data scientists designed by data scientists
 
-### SuperDuperDB is a unified environment for the entire AI-data workflow
+### SuperDuperDB allows full flexibility and maximal agility
+
+- Train and develop arbitrary AI models without infrastructural overhead.
+- Deploy live AI models to the database to give unprecendented data navigation 
+and comprehension.
+
+---
+
+## SuperDuperDB is a unified environment for the entire AI-data workflow
+
+### Computation of new output happens directly on the data - outputs are stored directly with the input data
 
 ![center w:900](images/cycle-linear.svg)
 
@@ -143,17 +137,19 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 ### The SuperDuperDB core codebase will be open sourced under Apache License 2.0
 
 - Companies will be able to deploy their AI and models in a unified way in their own data centers.
-- Their entire stack will be transparent and no longer locked in behind SAAS and cloud providers.
+- Their entire stack will be transparent and no longer locked in behind SaaS and cloud providers.
 
 ---
 
-## e-Commerce AI
+## Example: with SuperDuperDB instantly deploy a full-stack of e-Commerce AI
+
+(*Write e-commerce stuff in the boxes*)
 
 ![center w:950](images/cycle-linear-e-commerce.svg)
 
 ---
 
-## SuperDuperDB enables a range of well tested business models
+## SuperDuperDB enables a variety of well tested business models
 
 - Tiered managed cloud service
 - On premises solution with technical support
@@ -161,20 +157,8 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 - Consulting
 - Certifications
 
----
 
-## Using SuperDuperDB will be able to offer outstanding offerings wherever AI provides substantial value
-
-- LegalTech
-  - Advanced document analysis
-- e-Commerce
-  - Search, Navigation, Recommendation
-- Biomedical
-  - Semantic image segmentation
-- Cybersecurity
-  - Fraud detection
-
----
+<!-- ---
 
 ## The potential market for SuperDuperDB is huge
 
@@ -197,30 +181,45 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ### 2023 onwards
 
-![w:600](images/venn-future-logo-2.svg)
+![w:600](images/venn-future-logo-2.svg) -->
 
 ---
 
-## With SuperDuperDB we aim to
+## We aim to make large in-roads into DBMS and managed AI
 
-### ... make large in-roads into the managed database market
+Both [managed database](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-market-transformation-2021-the-big-picture/) and [AI market](https://www.gartner.com/en/newsroom/press-releases/2021-11-22-gartner-forecasts-worldwide-artificial-intelligence-software-market-to-reach-62-billion-in-2022) are already huge and still growing fast 
 
-Managed databases is a huge market with unprecedented growth (source: [gartner.com](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-market-transformation-2021-the-big-picture/))
+<div class="columns">
+<div style="margin-top: 5%;">
 
+<center>DBMS</center>
 
-![width:600](images/dbms_by_year.svg)
+![center w:6000](images/dbms_by_year.svg)
+
+</div>
+<div style="margin-top: 5%">
+
+<center>AI Software</center>
+
+![center w:600](images/ai_software_by_year.svg)
+
+</div>
+</div>
 
 ---
 
-## ...and the managed AI software market
+## Using SuperDuperDB will be able to offer outstanding offerings wherever AI provides substantial value
 
-AI software is a burgeoning new market already with huge reach (source: [gartner.com](https://www.gartner.com/en/newsroom/press-releases/2021-11-22-gartner-forecasts-worldwide-artificial-intelligence-software-market-to-reach-62-billion-in-2022))
+### For example
 
-![w:750](images/ai_software_by_year.svg)
+- Legal tech (*e.g. advanced document analysis*)
+- e-Commerce (*e.g. search, navigation, recommendation*)
+- Biomedical (*e.g. semantic image segmentation*)
+- Cybersecurity (*e.g. fraud detection*)
 
 ---
 
-## Specialized functionalities will dominate AI and data in selected verticals
+## We will build and offer specialized functionalities for key verticals 
 
 ![center w:700](images/verticals-horizontals.svg)
 
@@ -236,58 +235,58 @@ AI software is a burgeoning new market already with huge reach (source: [gartner
 
 ---
 
-## A proven team
+## The founders have a proven combination of skill sets and remarkable joint track record
+
 
 <div class="columns">
 <div style="margin-top: 10%;">
 
-<center><b>Duncan Blythe</b></center>
 
-![center w:200](images/duncan.jpeg)
+<center>
 
-- CEO
-- CTO (provisional)
-- Communication with developer community
+![w:250](images/duncan.jpeg)
+<b>Duncan Blythe [:link:](https://www.linkedin.com/in/duncan-blythe-71877312b/)</b>
+
+Development, AI research
+
+</center>
 
 </div>
 <div style="margin-top: 10%">
 
-<center><b>Timo Hagenow</b></center>
+<center>
 
-![center w:200](images/timo.jpg)
+![w:250](images/timo.jpg)
+<b>Timo Hagenow [:link:](https://www.linkedin.com/in/timohagenow/)</b>
 
-- COO
-- Growth hacking, marketing, sales
-- Communication with business community
+Operations, marketing, sales
+
+</center>
+
 
 </div>
 </div>
-
-
 
 ---
 
 ## SuperDuperDB draws on over a decade of experience in managed AI
 
-### Duncan Blythe [:link:](https://www.linkedin.com/in/duncan-blythe-71877312b/)
+### Duncan Blythe [:link:](https://www.linkedin.com/in/duncan-blythe-71877312b/), MMathPhil, MSc, PhD
 
-- Graduated first in class Oxford Mathematics 2007, MMathPhil, MSc, PhD
+- Graduated first in class Oxford Mathematics 2007
 - 1,000s citations on AI research, 10,000s of stars on GitHub open source
 - Co-founded and exited alephsearch.com (bootstrapped) 2020 to attraqt.com (WKN A12C9P) with team of 2 for mid 7-figure ([press release](https://www.sharecast.com/news/aim-bulletin/attraqt-to-acquire-ai-search-platform-aleph--7661235.html))
 - Led AI integration and strategy at attraqt.com to exit 2022 ([press release](https://newsnreleases.com/2022/09/29/crownpeak-holdings-will-acquire-attraqt-group-for-63-2-million/))
-- Deep learning, software development, infrastructure, technical lead
 
 ---
 
 ## SuperDuperDB will profit from experience in scaling businesses
 
 
-### Timo Hagenow [:link:](https://www.linkedin.com/in/timohagenow/)
+### Timo Hagenow [:link:](https://www.linkedin.com/in/timohagenow/), MBA
 
-- MBA, Hamburg Media School
 - Founded  adtech company yieldlove.com (2013), exited (2017) to market leader stroeer.de (WKN 749399) and scaled annual revenue to over 50 million euro ([press release](https://www.stroeer.de/en/newsroom/press/expansion-of-technological-platform-marketing-stroeer-acquires-programmatic-platform-and-header-bidding-specialists-yieldlove/))
 - Co-founded and exited alephsearch.com (bootstrapped) 2020 to attraqt.com (WKN A12C9P) with team of 2 for mid 7-figure  ([press release](https://www.sharecast.com/news/aim-bulletin/attraqt-to-acquire-ai-search-platform-aleph--7661235.html))
-- Operations, sales, marketing, strategy, product expertise
 
 ---
 

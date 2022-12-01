@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.5899691"
-     inkscape:cx="605.11644"
+     inkscape:cx="606.81144"
      inkscape:cy="443.24355"
      inkscape:window-width="1359"
      inkscape:window-height="847"
@@ -232,19 +232,14 @@
     <text
        xml:space="preserve"
        style="font-size:7.05556px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-       x="35.412868"
-       y="53.15498"
+       x="43.485325"
+       y="57.639679"
        id="text8067-3-0-3-1"><tspan
          sodipodi:role="line"
          style="font-size:7.05556px;fill:#000000;fill-opacity:1;stroke-width:0.1"
-         x="35.412868"
-         y="53.15498"
-         id="tspan9782-7">data</tspan><tspan
-         sodipodi:role="line"
-         style="font-size:7.05556px;fill:#000000;fill-opacity:1;stroke-width:0.1"
-         x="35.412868"
-         y="61.97443"
-         id="tspan9818">insertion</tspan></text>
+         x="43.485325"
+         y="57.639679"
+         id="tspan9818">data</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.23333px;font-family:monospace;-inkscape-font-specification:monospace;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
@@ -796,6 +791,6 @@
        id="text2112"><tspan
          sodipodi:role="line"
          id="tspan2110"
-         style="stroke-width:1"></tspan></text>
+         style="stroke-width:1" /></text>
   </g>
 </svg>
