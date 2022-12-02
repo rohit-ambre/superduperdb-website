@@ -126,7 +126,7 @@ and comprehension.
 
 ## SuperDuperDB minimizes overhead and revolutionizes AI capabilities
 
-- Data ingestion and processing is no longer required
+- Complex data preparation and processing is no longer required
 - AI models can perform entirely new operations by having access to all data 
 - AI can handle new incoming data and streaming
 
@@ -308,7 +308,7 @@ table {
 
 ## The Ask
 
-**1 year, 1.2 million €**
+**1 year, 1.1 million €**
 
 | Item                 | Count | Cost unit (€) | Cost (€) |
 | -------------------- | ----- | ------------- | -------- |
@@ -316,6 +316,5 @@ table {
 | Cloud engineer       | 2     | 90,000        | 180,000  |
 | Research scientist   | 2     | 100,000       | 200,000  |
 | Marketing            | 1     | 60,000        | 60,000   |
-| Cloud Infrastructure | 1     | 100,000       | 100,000  |
 | Management           | 1     | 100,000       | 100,000  |
 | Miscellaneous        | 1     | 200,000       | 200,000  |
