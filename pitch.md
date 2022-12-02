@@ -61,29 +61,18 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ## Current solutions don’t enable efficient interoperability between data and models 
 
-<!-- <div class="columns">
-<div style="margin-top: 5%;"> -->
-
-- Data ingestion and processing causes huge overhead 
+- Data preparation and processing causes huge overhead 
 - No intelligent information lookup on the fly by the model
 - No handling of new data points (streaming)
-<!-- 
-</div>
-<div style="margin-top: 10%">
-
-![](images/mozart_reml.svg) -->
-
-</div>
-</div>
 
 ---
 
 ## Companies do not own their data and AI
 
-**Companies are missing**
+**Companies want**
 
 - 100% control over their infrastructure and deployments
-- Avoidance of vendor lock-in by cloud and SaaS providers
+- To avoid vendor lock-in by cloud and SaaS providers
 - Transparency & auditability over what happens with their data
 
 ---
