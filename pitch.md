@@ -83,7 +83,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 **Companies are missing**
 
 - 100% control over their infrastructure and deployments
-- Avoidance of vendor lock-in by cloud and SAAS providers
+- Avoidance of vendor lock-in by cloud and SaaS providers
 - Transparency & auditability over what happens with their data
 
 ---
