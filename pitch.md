@@ -100,7 +100,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 ### SuperDuperDB allows full flexibility and maximal agility
 
 - Train and develop arbitrary AI models without infrastructural overhead.
-- Deploy live AI models to the database to give unprecendented data navigation 
+- Deploy live AI models to the database to give unprecedented data navigation 
 and comprehension.
 
 ---
