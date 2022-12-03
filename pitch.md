@@ -61,7 +61,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ## Current solutions don’t enable efficient interoperability between data and models 
 
-- Data preparation and processing causes huge overhead 
+- Data preparation and preprocessing causes huge overhead 
 - No intelligent information lookup on the fly by the model
 - No handling of new data points (streaming)
 
@@ -115,7 +115,7 @@ and comprehension.
 
 ## SuperDuperDB minimizes overhead and revolutionizes AI capabilities
 
-- Complex data preparation and processing is no longer required
+- Complex data preparation and preprocessing is no longer required
 - AI models can perform entirely new operations by having access to all data 
 - AI can handle new incoming data and streaming
 
