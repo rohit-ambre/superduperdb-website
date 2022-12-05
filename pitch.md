@@ -81,7 +81,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
-# SuperDuperDB
+# Introducing SuperDuperDB
 
 ### The first fully fledged AI-database solution
 
@@ -145,32 +145,6 @@ and comprehension.
 - Model repository (like "App Store")
 - Consulting
 - Certifications
-
-
-<!-- ---
-
-## The potential market for SuperDuperDB is huge
-
-### 2019
-
-![w:400](images/venn-now.svg)
-
----
-
-
-## ... and rapidly growing
-
-### 2022 
-
-![w:400](images/venn-future-logo-1.svg)
-
----
-
-## ... and rapidly growing
-
-### 2023 onwards
-
-![w:600](images/venn-future-logo-2.svg) -->
 
 ---
 
