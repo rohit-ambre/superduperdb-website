@@ -265,7 +265,7 @@ Operations, marketing, sales
 - Graduated first in class Oxford Mathematics 2007
 - 1,000s citations on AI research, 10,000s of stars on GitHub open source
 - Co-founded AI innovation lab lf1.io 2019
-- Co-founded and exited alephsearch.com (bootstrapped) 2020 to attraqt.com (WKN A12C9P) with team of 2 for mid 7-figure ([press release](https://www.sharecast.com/news/aim-bulletin/attraqt-to-acquire-ai-search-platform-aleph--7661235.html))
+- Co-founded and exited alephsearch.com (bootstrapped) 2020 to attraqt.com with team of 2 for mid 7-figure ([press release](https://www.sharecast.com/news/aim-bulletin/attraqt-to-acquire-ai-search-platform-aleph--7661235.html))
 - Led AI integration and strategy at attraqt.com to exit 2022 ([press release](https://newsnreleases.com/2022/09/29/crownpeak-holdings-will-acquire-attraqt-group-for-63-2-million/))
 
 ---
@@ -275,10 +275,10 @@ Operations, marketing, sales
 
 ### Timo Hagenow [:link:](https://www.linkedin.com/in/timohagenow/), MBA
 
-- Founded  adtech company yieldlove.com (2013), exited (2017) to market leader stroeer.de (WKN 749399) and scaled annual revenue to over 50 million euro ([press release](https://www.stroeer.de/en/newsroom/press/expansion-of-technological-platform-marketing-stroeer-acquires-programmatic-platform-and-header-bidding-specialists-yieldlove/))
+- Founded  adtech company yieldlove.com (2013), exited (2017) to market leader stroeer.de and scaled annual revenue to over 50 million euro ([press release](https://www.stroeer.de/en/newsroom/press/expansion-of-technological-platform-marketing-stroeer-acquires-programmatic-platform-and-header-bidding-specialists-yieldlove/))
 - Co-founded AI innovation lab lf1.io 2019
-- Co-founded and exited alephsearch.com (bootstrapped) 2020 to attraqt.com (WKN A12C9P) with team of 2 for mid 7-figure  ([press release](https://www.sharecast.com/news/aim-bulletin/attraqt-to-acquire-ai-search-platform-aleph--7661235.html))
-- Co-founded [sheen-ai](https://www.sheen-ai.com/) 2022
+- Co-founded and exited alephsearch.com (bootstrapped) 2020 to attraqt.com with team of 2 for mid 7-figure  ([press release](https://www.sharecast.com/news/aim-bulletin/attraqt-to-acquire-ai-search-platform-aleph--7661235.html))
+- Co-founded [sheen-ai.com](https://www.sheen-ai.com/) 2022
 
 ---
 
@@ -297,13 +297,14 @@ table {
 
 ## The Ask
 
-**1 year, 1.1 million €**
+**1 year, 1.2 million €**
 
 | Item                 | Count | Cost unit (€) | Cost (€) |
 | -------------------- | ----- | ------------- | -------- |
 | Python developer     | 3     | 80,000        | 240,000  |
 | Cloud engineer       | 2     | 90,000        | 180,000  |
 | Research scientist   | 2     | 100,000       | 200,000  |
-| Marketing            | 1     | 60,000        | 60,000   |
-| Management           | 1     | 100,000       | 100,000  |
+| Frontend             | 1     | 80,000        | 80,000   |
+| Marketing            | 2     | 60,000        | 120,000  |
+| Management           | 2     | 100,000       | 200,000  |
 | Miscellaneous        | 1     | 200,000       | 200,000  |
