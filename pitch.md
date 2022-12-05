@@ -299,6 +299,8 @@ table {
 
 **1 year, 1.2 million €**
 
+The initial funding will enable us to develop and market-test a rock-solid MVP.
+
 | Item                 | Count | Cost unit (€) | Cost (€) |
 | -------------------- | ----- | ------------- | -------- |
 | Python developer     | 3     | 80,000        | 240,000  |
