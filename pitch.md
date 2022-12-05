@@ -284,6 +284,8 @@ Operations, marketing, sales
 
 ## Timeline
 
+In the initial year we will develop and market-test a rock-solid MVP.
+
 ![center](images/timeline.svg)
 
 ---
@@ -299,7 +301,8 @@ table {
 
 **1 year, 1.2 million €**
 
-The initial funding will enable us to develop and market-test a rock-solid MVP.
+The initial funding will go mainly towards development and research.
+
 
 | Item                 | Count | Cost unit (€) | Cost (€) |
 | -------------------- | ----- | ------------- | -------- |
