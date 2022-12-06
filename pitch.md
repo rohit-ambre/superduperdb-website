@@ -113,6 +113,24 @@ and comprehension.
 
 ---
 
+## Deploy a full stack AI service with a few lines of Python code
+
+### Example: e-Commerce navigation
+
+Semantic text-search, similar product recommendation, reverse image search
+
+```python
+products.insert_many(product_list)
+products.create_semantic_index(
+    'shop_index',
+    [{'name': 'text-searcher', 'object': text_model, 'key': 'query'},
+     {'name': 'product-indexer', 'object': product_model, 'key': 'product'},
+     {'name': 'street-image', 'object': image_model, 'key': 'image'}]
+)
+```
+
+---
+
 ## SuperDuperDB minimizes overhead and revolutionizes AI capabilities
 
 - Complex data preparation and preprocessing is no longer required
