@@ -156,9 +156,6 @@ products.create_semantic_index(
 
 ---
 
-
----
-
 ## We aim to make large in-roads into DBMS and managed AI
 
 Both [managed database](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-market-transformation-2021-the-big-picture/) and [AI market](https://www.gartner.com/en/newsroom/press-releases/2021-11-22-gartner-forecasts-worldwide-artificial-intelligence-software-market-to-reach-62-billion-in-2022) are already huge and still growing fast 
@@ -295,7 +292,6 @@ table {
 | Marketing            | 2     | 60,000        | 120,000  |
 | Management           | 2     | 100,000       | 200,000  |
 | Miscellaneous        | 1     | 200,000       | 200,000  |
-
 
 ---
 
