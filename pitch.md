@@ -115,7 +115,7 @@ and comprehension.
 
 ## Deploy a full stack AI service with a few lines of Python code
 
-### Example: semantic text-search, similar product recommendation, reverse image search
+### Example: e-Commerce semantic text-search, similar product recommendation, reverse image search
 
 ```python
 products.insert_many(product_list)
@@ -146,12 +146,6 @@ products.create_semantic_index(
 
 ---
 
-## Example: with SuperDuperDB instantly deploy a full-stack of e-Commerce AI
-
-![center w:950](images/cycle-linear-e-commerce.svg)
-
----
-
 ## SuperDuperDB enables a variety of well tested business models
 
 - Tiered managed cloud service
@@ -159,6 +153,9 @@ products.create_semantic_index(
 - Model repository (like "App Store")
 - Consulting
 - Certifications
+
+---
+
 
 ---
 
@@ -298,3 +295,14 @@ table {
 | Marketing            | 2     | 60,000        | 120,000  |
 | Management           | 2     | 100,000       | 200,000  |
 | Miscellaneous        | 1     | 200,000       | 200,000  |
+
+
+---
+
+# Additional slides
+
+---
+
+## Example: with SuperDuperDB instantly deploy a full-stack of e-Commerce AI
+
+![center w:950](images/cycle-linear-e-commerce.svg)
