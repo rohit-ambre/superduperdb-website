@@ -194,6 +194,7 @@ Both [managed database](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-ma
 
 ![center w:700](images/verticals-horizontals.svg)
 
+
 ---
 
 ## SuperDuperDB is already in full swing
@@ -302,3 +303,26 @@ table {
 ## Example: with SuperDuperDB instantly deploy a full-stack of e-Commerce AI
 
 ![center w:950](images/cycle-linear-e-commerce.svg)
+
+---
+
+## Competition: MindsDB [:link:](https://mindsdb.com/) is the only apparent competitor in this space
+
+### MindsDB's approach is nothing like SuperDuperDB and is not ready for fully fledged modern AI
+
+<style scoped>
+table {
+  font-size: 16px;
+}
+</style>
+
+
+| MindsDB                | SuperDuperDB                      |
+| ---------------------- | --------------------------------- |
+| Predefined models only | Bring any model                   |
+| Relational             | Relational+Object                 |
+| Inbuilt trainer        | Arbitrary training                |
+| CPU only               | multi-GPU                         |
+| SQL query              | Fully semantic search queries     |
+| Small data             | Big data                          |
+| Table data only        | Full content: images, text, video |
