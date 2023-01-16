@@ -156,6 +156,15 @@ products.create_semantic_index(
 
 ---
 
+## Viral adoption in the developer community 
+
+### Community interest and adoption drives corporate integrations
+
+
+![center w:400](images/community.svg)
+
+---
+
 ## We aim to make large in-roads into DBMS and managed AI
 
 Both [managed database](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-market-transformation-2021-the-big-picture/) and [AI market](https://www.gartner.com/en/newsroom/press-releases/2021-11-22-gartner-forecasts-worldwide-artificial-intelligence-software-market-to-reach-62-billion-in-2022) are already huge and still growing fast 
@@ -165,7 +174,7 @@ Both [managed database](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-ma
 
 <center>DBMS</center>
 
-![center w:6000](images/dbms_by_year.svg)
+![center w:600](images/dbms_by_year.svg)
 
 </div>
 <div style="margin-top: 5%">
@@ -316,7 +325,6 @@ table {
 }
 </style>
 
-
 | MindsDB                | SuperDuperDB                      |
 | ---------------------- | --------------------------------- |
 | Predefined models only | Bring any model                   |
@@ -326,3 +334,79 @@ table {
 | SQL query              | Fully semantic search queries     |
 | Small data             | Big data                          |
 | Table data only        | Full content: images, text, video |
+
+---
+
+## Strategy: Open-core
+
+- Hosting on GitHub with project page and full documentation
+- Use standard scaling strategies on GitHub to gain viral adoption
+- Basis on most popular components, leads to high adoption:
+  - PyTorch (used by openAI)
+  - MongoDB (most popular document store)
+- Core functionality open-source
+- Bells and whistles not included
+
+---
+
+## Strategy: Managed cloud hosted services
+
+- Host fully managed and configurable SuperDuperDB deployments
+  - AWS
+  - GCloud
+  - Azure
+- Integration to existing hosted MongoD deployments possible
+
+---
+
+## Strategy: Managed onsite self-hosting
+
+- Compiled binaries for easy self-hosting
+- Support and consultation
+
+---
+
+## Strategy: Marketplace
+
+- Marketplace of models and datasets
+- Enable third-party sellers to revenue
+- Enable friendly agreements with competition e.g. Hugging Face
+
+---
+
+## Strategy: Tune-ups and interfaces
+
+- Open-core contains key-functionality
+- Sell licenses for:
+  - User interfaces
+  - High-level work flows
+  - Validation dashboards and management
+
+---
+
+## Strategy: Professional services 
+
+- Tiered support
+- Certifications
+- Coaching and on-site consulting
+
+---
+
+## Strategy: Vertical expansion
+
+- Bespoke models for key use-cases
+- In-house team of data-scientists and SuperDuperDB specialists build models
+- Integration to hosted or non-hosted SuperDuperDB deployment
+- Per-request or per-model pricing possible
+
+---
+
+## Paradimatic use-cases
+
+- Reuters: news classification and aggregation with AI
+- Crunchbase: company recommendation and understanding
+- Zalando: full stack AI for semantic navigation and recommendation
+- Wikipedia: tag extraction and summarization
+- Deutsche Industrie Mittelstand: automated quality control using computer vision
+- Cisco systems: anomaly prediction and early threat detection (edited)
+- Biontech: drug candidate pre-screening and classification
