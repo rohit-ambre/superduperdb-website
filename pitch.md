@@ -401,7 +401,7 @@ table {
 
 ---
 
-## Paradimatic use-cases
+## Paradigmatic use-cases
 
 - Reuters: news classification and aggregation with AI
 - Crunchbase: company recommendation and understanding
