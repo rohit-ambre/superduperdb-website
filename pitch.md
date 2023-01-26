@@ -278,6 +278,8 @@ Operations, marketing, sales
 
 ![center](images/timeline.svg)
 
+<!---
+
 ---
 
 <style scoped>
@@ -410,3 +412,5 @@ table {
 - Deutsche Industrie Mittelstand: automated quality control using computer vision
 - Cisco systems: anomaly prediction and early threat detection (edited)
 - Biontech: drug candidate pre-screening and classification
+
+-->
