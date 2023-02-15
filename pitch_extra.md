@@ -164,4 +164,29 @@ table {
 - Cisco systems: anomaly prediction and early threat detection (edited)
 - Biontech: drug candidate pre-screening and classification
 
+---
 
+<style scoped>
+table {
+  font-size: 20px;
+}
+</style>
+
+## Comparison
+
+<center>
+
+| | SuperDuperDB | MindsDB | Databricks | Snowflake | AWS Sagemaker | Eto |
+| - | :-: | :-: | :-: | :-: | :-: | :-: |
+| ML models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Open Source | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ |
+| Unified environment | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Train AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Arbitrary AI models | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
+| Vector Search | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Flexible data types | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Flexible AI Operators | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Python first | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
+
+
+</center>
