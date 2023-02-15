@@ -188,5 +188,4 @@ table {
 | Flexible AI Operators | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Python first | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
 
-
 </center>
