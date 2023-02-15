@@ -172,7 +172,7 @@ table {
 }
 </style>
 
-## Comparison
+## There is nothing out there like SuperDuperDB
 
 <center>
 
