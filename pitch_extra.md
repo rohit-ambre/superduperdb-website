@@ -178,7 +178,7 @@ table {
 
 | | SuperDuperDB | MindsDB | Databricks | Snowflake | AWS Sagemaker | Eto |
 | - | :-: | :-: | :-: | :-: | :-: | :-: |
-| ML models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Open Source | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ |
 | Unified environment | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Train AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
