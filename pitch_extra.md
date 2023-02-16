@@ -176,7 +176,7 @@ table {
 
 <center>
 
-| | SuperDuperDB | MindsDB | Databricks | Snowflake | AWS Sagemaker | Eto | Brytlyt | Continual |
+| | SuperDuperDB | MindsDB | Databricks | Snowflake | AWS Sagemaker | Eto | Brytlyt | Continual | 
 | - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | Open Source | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
@@ -189,3 +189,9 @@ table {
 | Python first | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ |
 
 </center>
+
+---
+
+## Case study: Snowpark
+
+[https://github.com/Snowflake-Labs/sfguide-citibike-ml-snowpark-python/blob/main/03_ML_Engineering.ipynb](https://github.com/Snowflake-Labs/sfguide-citibike-ml-snowpark-python/blob/main/03_ML_Engineering.ipynb)
