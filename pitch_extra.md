@@ -168,7 +168,7 @@ table {
 
 <style scoped>
 table {
-  font-size: 20px;
+  font-size: 15px;
 }
 </style>
 
@@ -176,16 +176,16 @@ table {
 
 <center>
 
-| | SuperDuperDB | MindsDB | Databricks | Snowflake | AWS Sagemaker | Eto |
-| - | :-: | :-: | :-: | :-: | :-: | :-: |
-| AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Open Source | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ |
-| Unified environment | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Train AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Arbitrary AI models | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
-| Vector Search | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Flexible data types | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Flexible AI Operators | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Python first | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |
+| | SuperDuperDB | MindsDB | Databricks | Snowflake | AWS Sagemaker | Eto | Brytlyt | Continual |
+| - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
+| Open Source | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
+| Unified environment | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |❓| ✅ |
+| Train AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
+| Arbitrary AI models | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |❓| ❌ |
+| Vector Search | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
+| Flexible data types | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
+| Flexible AI Operators | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Python first | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ |
 
 </center>
