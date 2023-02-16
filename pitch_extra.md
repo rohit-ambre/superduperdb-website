@@ -184,7 +184,7 @@ table {
 | Train AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
 | Arbitrary AI models | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |❓| ❌ |
 | Vector Search | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
-| Flexible data types | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
+| Flexible data types | ✅ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ | ❌ |
 | Flexible AI Operators | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Python first | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ |
 
