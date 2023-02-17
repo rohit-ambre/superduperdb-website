@@ -33,6 +33,8 @@ style: |
   
 ---
 
+<!---
+
 <style scoped>
 table {
   font-size: 20px;
@@ -56,7 +58,7 @@ table {
 | Management           | 2     | 100,000       | 200,000  |
 | Miscellaneous        | 1     | 200,000       | 200,000  |
 
----
+-->
 
 # Additional slides
 
@@ -176,7 +178,7 @@ table {
 
 <center>
 
-| | SuperDuperDB | MindsDB | Databricks | Snowflake | AWS Sagemaker | Eto | Brytlyt | Continual | 
+| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [Databricks](https://www.databricks.com/) | [Snowflake](https://docs.snowflake.com/en/developer-guide/snowpark/index) | [AWS Sagemaker](https://aws.amazon.com/sagemaker/) | [Eto](https://eto.ai/) | [Brytlyt](https://brytlyt.io/) | [Continual](https://continual.ai/) | 
 | - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
 | Open Source | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
