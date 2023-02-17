@@ -197,3 +197,7 @@ table {
 ## Case study: Snowpark
 
 [https://github.com/Snowflake-Labs/sfguide-citibike-ml-snowpark-python/blob/main/03_ML_Engineering.ipynb](https://github.com/Snowflake-Labs/sfguide-citibike-ml-snowpark-python/blob/main/03_ML_Engineering.ipynb)
+
+---
+
+![](images/architecture_detailed.png)
