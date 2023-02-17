@@ -200,4 +200,5 @@ table {
 
 ---
 
+
 ![](images/architecture_detailed.png)
