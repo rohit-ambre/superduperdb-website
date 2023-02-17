@@ -59,21 +59,11 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
-## Current solutions don’t enable efficient interoperability between data and models 
+## Current solutions highly limit and hamper development and deployment of AI
 
-- Data preparation and preprocessing causes huge overhead 
-- No intelligent information lookup on the fly by the model
-- No handling of new data points (streaming)
-
----
-
-## Companies do not own their data and AI
-
-**Companies want**
-
-- 100% control over their infrastructure and deployments
-- To avoid vendor lock-in by cloud and SaaS providers
-- Transparency & auditability over what happens with their data
+- Huge operational and infrastructure overhead from injestion to deployment
+- Not ready for the latest AI advances
+- No efficient interoperability between data and models
 
 ---
 
@@ -83,7 +73,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 # Introducing SuperDuperDB
 
-### The first fully fledged AI-database solution
+### The first fully fledged and open source AI-database solution
 
 ---
 
@@ -95,13 +85,11 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
-## A solution for data scientists designed by data scientists
-
-### SuperDuperDB allows full flexibility and maximal agility
+## A solution for data people designed by data people
 
 - Train and develop arbitrary AI models without infrastructural overhead.
-- Deploy live AI models to the database to give unprecedented data navigation 
-and comprehension.
+- Deploy arbitrary AI models to the database and enable unprecedented data navigation and comprehension.
+- Models are kept up-to-date directly in response to incoming data "*perpetuum mobile*"
 
 ---
 
