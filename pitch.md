@@ -89,7 +89,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 - Train and develop arbitrary AI models without infrastructural overhead.
 - Deploy arbitrary AI models to the database and enable unprecedented data navigation and comprehension.
-- Models are kept up-to-date directly in response to incoming data "*perpetuum mobile*"
+- Models and outputs are kept up-to-date directly in response to incoming data "*perpetuum mobile*"
 
 ---
 
