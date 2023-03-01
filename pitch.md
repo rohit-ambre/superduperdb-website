@@ -73,15 +73,15 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 # Introducing SuperDuperDB
 
-### The first fully fledged and open source AI-database solution
+### The first fully fledged and open source AI-data solution
 
 ---
 
-## SuperDuperDB: Integrating AI directly into your database
+## SuperDuperDB: Integrating AI directly into your data-base/ -lake / -warehouse
 
-### Uniting best in class database and deep learning software
+### Uniting best in class data and deep learning software
 
-![center w:700](images/connector.svg)
+![center w:500](images/connector.svg)
 
 ---
 
@@ -99,21 +99,6 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ![center w:900](images/cycle-linear.svg)
 
----
-
-## Deploy a full stack AI service with a few lines of Python code
-
-### Example: e-Commerce semantic text-search, similar product recommendation, reverse image search
-
-```python
-products.insert_many(product_list)
-products.create_semantic_index(
-    'shop_index',
-    [{'name': 'text-searcher', 'object': text_model, 'key': 'query'},
-     {'name': 'product-indexer', 'object': product_model, 'key': 'product'},
-     {'name': 'street-image', 'object': image_model, 'key': 'image'}]
-)
-```
 
 ---
 
@@ -265,6 +250,7 @@ Operations, marketing, sales
 ## Timeline: in the initial year we will develop and market-test a rock-solid MVP
 
 ![center](images/timeline.svg)
+
 
 <!---
 
