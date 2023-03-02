@@ -62,8 +62,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 ## Current solutions highly limit and hamper development and deployment of AI
 
 - Huge operational and infrastructure overhead from injestion to deployment
-- Not ready for the latest AI advances
-- No efficient interoperability between data and models
+- Not ready for the latest AI advances since models and data can't talk directly to each other
 
 ---
 
@@ -77,19 +76,9 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
-## SuperDuperDB: Integrating AI directly into your data-base/ -lake / -warehouse
-
-### Uniting best in class data and deep learning software
+## SuperDuperDB: Integrating AI directly into your data-base, -lake, -warehouse
 
 ![center w:500](images/connector.svg)
-
----
-
-## A solution for data people designed by data people
-
-- Train and develop arbitrary AI models without infrastructural overhead.
-- Deploy arbitrary AI models to the database and enable unprecedented data navigation and comprehension.
-- Models and outputs are kept up-to-date directly in response to incoming data "*perpetuum mobile*"
 
 ---
 
@@ -99,14 +88,22 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ![center w:900](images/cycle-linear.svg)
 
-
 ---
 
 ## SuperDuperDB minimizes overhead and revolutionizes AI capabilities
 
-- Complex data preparation and preprocessing is no longer required
-- AI models can perform entirely new operations by having access to all data 
-- AI can handle new incoming data and streaming
+- Training and deployment of AI models massively simplified
+- AI models become easily accessible to independent developers as well as organizations
+- AI models can perform entirely new operations by having direct access to all data 
+- AI handles new incoming data and streaming automatically
+
+---
+
+## A solution for data people designed by data people
+
+- Train and develop arbitrary AI models without infrastructural overhead.
+- Deploy arbitrary AI models to the database and enable unprecedented data navigation and comprehension.
+- Models and outputs are kept up-to-date directly in response to incoming data "*perpetuum mobile*"
 
 ---
 
@@ -132,7 +129,6 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 ## Viral adoption in the developer community 
 
 ### Community interest and adoption drives corporate integrations
-
 
 ![center w:400](images/community.svg)
 
