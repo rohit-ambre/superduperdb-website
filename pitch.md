@@ -94,16 +94,9 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 - Training and deployment of AI models massively simplified
 - AI models become easily accessible to independent developers as well as organizations
+- Model outputs instantly available in known data environment for various teams and apps
 - AI models can perform entirely new operations by having direct access to all data 
 - AI handles new incoming data and streaming automatically
-
----
-
-## A solution for data people designed by data people
-
-- Train and develop arbitrary AI models without infrastructural overhead.
-- Deploy arbitrary AI models to the database and enable unprecedented data navigation and comprehension.
-- Models and outputs are kept up-to-date directly in response to incoming data "*perpetuum mobile*"
 
 ---
 
