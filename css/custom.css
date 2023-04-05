@@ -52,3 +52,7 @@ div .width-over {
 .page-title-empty {
   padding: 325px 0px 260px 0px;
 }
+
+div .form-group {
+  padding-top: 20px;
+}
