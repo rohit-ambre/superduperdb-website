@@ -146,6 +146,14 @@ table {
 
 ---
 
+## Recent developments in LLMs
+
+- Alpaca
+- LlaMa - leaked to the public (by Meta AI)
+- Many incremental improvements based on recent research
+
+---
+
 <style scoped>
 table {
   font-size: 15px;
@@ -156,29 +164,61 @@ table {
 
 <center>
 
-| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [Databricks](https://www.databricks.com/) | [Snowflake](https://docs.snowflake.com/en/developer-guide/snowpark/index) | [AWS Sagemaker](https://aws.amazon.com/sagemaker/) | [Eto](https://eto.ai/) | [Brytlyt](https://brytlyt.io/) | [Continual](https://continual.ai/) | 
+
+
+| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [PostGresML](https://postgresml.org/) | [DeepLake]() | [LanceDB](https://eto.ai/) | [Continual](https://continual.ai/) | [PineCone](https://www.pinecone.io/) | [Chroma](https://docs.trychroma.com/) |
 | - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ |
-| Open Source | ✅ | ✅ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
-| Unified environment | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |❓| ✅ |
-| Train AI models in database | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ |
-| Arbitrary AI models | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ |❓| ❌ |
-| Vector Search | ✅ | ❌ | ❌ | ❌ | ❌ | ✅ | ❌ | ❌ |
-| Flexible data types | ✅ | ❌ | ❌ | ❌ | ❌ | ❓ | ❌ | ❌ |
-| Flexible AI Operators | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Python first | ✅ | ❌ | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ |
+| AI models in database | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Open Source | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ |
+| Unified environment | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |❌| ❌ |
+| Train AI models in database | ✅ | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ❌ |
+| Arbitrary AI models | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ |❌| ❌ |
+| Vector Search | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Flexible data types | ✅ | ❌ | ❌ | ✅ | ✅ | ❓ | ❌ | ❌ |
+| Scalable compute | ✅ | ❌ | ❌ | ❌ | ❓ | ❌ | ✅ | ❌ |
+| Python first | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Arbitrary datastore |✅  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 </center>
 
 ---
 
-## Case study: Snowpark
-
-[https://github.com/Snowflake-Labs/sfguide-citibike-ml-snowpark-python/blob/main/03_ML_Engineering.ipynb](https://github.com/Snowflake-Labs/sfguide-citibike-ml-snowpark-python/blob/main/03_ML_Engineering.ipynb)
+![](images/architecture_detailed.png)
 
 ---
 
-![](images/architecture_detailed.png)
+## Use case: vector search with OpenAI
+
+```python
+>>> from superduperdb.apis.openai import Embedding
+>>> docs.insert_many([d for d in data])
+>>> docs.create_model(Embedding('text-embedding-ada-002'), keys=['text'])
+>>> docs.find(like={'text': 'Articles about biotech'}, semantic_index='gpt4/text')
+```
+
+---
+
+## Use case: vector search with OpenAI
+
+```python
+>>> from sentence_transformers import pipeline
+>>> docs.create_model(pipeline('multi-qa-distilbert-dot-v1'), keys=['text'])
+>>> docs.find({'text': 'Articles about biotech'}, semantic_index='multi-qa-distilbert-dot-v1')
+```
+
+---
+
+## Use case: personal assistant referencing private voice memos 
+
+```python
+>>> import torch
+>>> from superduperdb.models.openai import RetrievalChatCompletion
+>>> model, decoder, utils = torch.hub.load(repo_or_dir='snakers4/silero-models', model='silero_stt', language='en')
+>>> docs.create_model(model, preprocess=utils[-1], postprocess=decoder, keys=['audio'])
+>>> docs.create_model(pipeline('multi-qa-distilbert-dot-v1'), keys=['audio'], features={'audio': 'silero_stt'})
+>>> docs.create_model(RetrievalChatCompletion('gpt-4'), features={'audio': 'multi-qa-distilbert-dot-v1'})
+>>> docs.predict_one('gpt-4', 'Is there a reference here to the roadmap from September?')
+```
 
 ---
 
@@ -189,11 +229,11 @@ table {
 >>> from my_codebase.models import VAE   # in-house code-base for anomaly detection
 >>> import torch                       # torch standard library
 >>> docs.create_model('bert', BertModel(BertConfig()), key='text')
->>> docs.create_imputation('anomaly',
-...                        model={'input': 'text', 'model': VAE()}, 
-...                        target={'input': 'text': 'model': torch.nn.Identity()},
-...                        features={'text': 'bert'},
-...                        loss={'anomaly-loss': torch.nn.BCELoss()})
+>>> docs.create_learning_task('anomaly',
+...                           model={'input': 'text', 'model': VAE()}, 
+...                           target={'input': 'text', 'model': torch.nn.Identity()},
+...                           features={'text': 'bert'},
+...                           loss={'anomaly-loss': torch.nn.BCELoss()})
 # (lots of output) model trains aynschronously on server
 >>> outliers = docs.find({'_outputs.text.anomaly': {'$leq': 0.001}})  # find outliers with database query
 ```
@@ -204,69 +244,13 @@ table {
 
 ```python
 >>> products.insert_many(product_list)
->>> products.create_semantic_index(
+>>> products.create_learning_task(
 ...    'shop_index',
 ...    [{'name': 'text-searcher', 'object': text_model, 'key': 'query'},
 ...     {'name': 'product-indexer', 'object': product_model, 'key': 'product'},
 ...     {'name': 'street-image', 'object': image_model, 'key': 'image'}]
 ... )
-# single line for semantic text-search
 >>> docs.find({'brand': 'Adidas'}, like={'query': 'leopard print t-shirt'})
-# single line for reverse image-search from web-url
 >>> docs.find({'brand': 'Nike'}, like={'image': {'_content': {'url': '<image-url'}}})
 ```
 
----
-
-## Use-case: open-AI API + CI-CD quality control for automatic programming
-
-"Write a function called `f` which extracts the base URL from any URL"
-
-```python
->>> unittest_collection.insert_many(programming_tasks)
->>> unittest_collection.create_model(
-...     'codex',  
-...     api='https://api.openai.com/v1/models/codex',
-...     method='POST',
-...     headers={'Authorization': 'Bearer <YOUR_API_KEY>',
-...              'OpenAI-Organization': '<YOUR_ORG_ID>'},
-... )
->>> for test_function, id_ in test_suite:
-...     unittest_collection.create_model(id_, test_function, key='_outputs.desc.codex', features={'desc': 'codex'})     
->>> unittest_collection.insert_one({
-...     '_id': ObjectId(my_id),
-...     'desc': 'write a function in python called `f` which sorts documents in MongoDB using `aggregate`'
-... })
-# get the answer, quality controlled and checked
->>> unittest_collection.find_one({'_id': ObjectId(my_id)}, {'_outputs': 1})
-{
-  '_outputs': {'desc': 'codex': 'def f(query, docs):\n    docs.aggregate(\n...)'}
-}
-```
-
----
-
-## Use-case: in-house chat-bots which answer questions about *your* data
-
-Hot off the press! Open Source Chat-GPT like model [here](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama).
-
-```python
->>> docs.insert_many(textual_data)
->>> docs.create_imputation(
-...     'gpt-llama',  
-...     model={'object': LLaMa(), 'name': 'llama'},
-...     target={'object': Tokenizer(), 'name': 'tokenizer'}
-...     loss=torch.nn.CrossEntropy(),
-... )
->>> docs.create_imputation(
-...     'reward-model',  
-...     model={'object': RewardModel(), 'name': 'reward', varieties=['model', 'loss']},
-...     target={'object': Identity(), 'name': 'quality'}
-...     loss=torch.nn.MSELoss(),
-... )
->>> docs.create_maximizer(
-...     'ppo-model',
-...     model={'object': RewardModel(), 'name': 'ppo'},
-...     loss='reward',
-... )
-```
