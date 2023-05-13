@@ -78,7 +78,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ## SuperDuperDB: Integrating AI directly into your data-base, -lake, -warehouse
 
-![center w:500](images/connector.svg)
+![center w:600](images/connector.svg)
 
 ---
 
