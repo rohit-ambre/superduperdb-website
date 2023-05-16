@@ -108,6 +108,23 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
+# Rough Roadmap 6 Months
+
+1. Enable full range of API provides: OpenAI, CohereAI, etc..
+2. Develop demonstrative use-cases based on MongoDB (see below)
+3. Add support for SQL: DuckDB and Apache Iceberg on s3 as use-cases
+4. Develop infrastructure for SuperDuperDB on Kubernetes
+  a. Scalable compute
+  b. Heterogeneous hardware
+  c. Job scheduler based on Dask
+5. Develop required mechanism for corporate use-cases
+  a. Security
+  b. Encryption
+  c. Usage monitoring
+  d. Logging
+
+---
+
 <style scoped>
 table {
   font-size: 15px;
@@ -118,7 +135,7 @@ table {
 
 <center>
 
-| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [PostGresML](https://postgresml.org/) | [DeepLake]() | [LanceDB](https://eto.ai/) | [Continual](https://continual.ai/) | [PineCone](https://www.pinecone.io/) | [Chroma](https://docs.trychroma.com/) |
+| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [PostGresML](https://postgresml.org/) | [DeepLake](https://www.deeplake.ai/) | [LanceDB](https://eto.ai/) | [Continual](https://continual.ai/) | [PineCone](https://www.pinecone.io/) | [Chroma](https://docs.trychroma.com/) |
 | - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | AI models in database | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Open Source | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
