@@ -104,7 +104,7 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 - Arbitrary AI models "installable" and "trainable" directly in the datastore
 - Datastore support initially MongoDB and DuckDB
-- Datastore outputs queries using new techniques, including but not limited to vector search
+- SuperDuperDB enables queries using new techniques, including but not limited to vector search
 
 ---
 
