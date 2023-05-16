@@ -152,34 +152,6 @@ table {
 - LlaMa - leaked to the public (by Meta AI)
 - Many incremental improvements based on recent research
 
----
-
-<style scoped>
-table {
-  font-size: 15px;
-}
-</style>
-
-## There is nothing out there like SuperDuperDB
-
-<center>
-
-
-
-| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [PostGresML](https://postgresml.org/) | [DeepLake]() | [LanceDB](https://eto.ai/) | [Continual](https://continual.ai/) | [PineCone](https://www.pinecone.io/) | [Chroma](https://docs.trychroma.com/) |
-| - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| AI models in database | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Open Source | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
-| Unified environment | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |❌| ❌ |
-| Train AI models in database | ✅ | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ❌ |
-| Arbitrary AI models | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ |❌| ❌ |
-| Vector Search | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Flexible data types | ✅ | ❌ | ❌ | ✅ | ✅ | ❓ | ❌ | ❌ |
-| Scalable compute | ✅ | ❌ | ❌ | ❌ | ❓ | ❌ | ✅ | ❌ |
-| Python first | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Arbitrary datastore |✅  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-</center>
 
 ---
 
