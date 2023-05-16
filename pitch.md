@@ -108,6 +108,33 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
+<style scoped>
+table {
+  font-size: 15px;
+}
+</style>
+
+## There is nothing out there like SuperDuperDB
+
+<center>
+
+| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [PostGresML](https://postgresml.org/) | [DeepLake]() | [LanceDB](https://eto.ai/) | [Continual](https://continual.ai/) | [PineCone](https://www.pinecone.io/) | [Chroma](https://docs.trychroma.com/) |
+| - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| AI models in database | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Open Source | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+| Unified environment | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |❌| ❌ |
+| Train AI models in database | ✅ | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ❌ |
+| Vector Search | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Scalable compute | ✅ | ❌ | ✅ | ❌ | ❓ | ❌ | ✅ | ❌ |
+| Python first | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Flexible data types | ✅ | ❌ | ❌ | ✅ | ✅ | ❓ | ❌ | ❌ |
+| Arbitrary AI models | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ |❌| ❌ |
+| Arbitrary datastore |✅  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+</center>
+
+---
+
 ## Use case: vector search with OpenAI
 
 Use OpenAI, to make documents instantly searchable using natural language:
@@ -262,32 +289,6 @@ Both [managed database](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-ma
 
 ![center w:700](images/verticals-horizontals.svg)
 
----
-
-<style scoped>
-table {
-  font-size: 15px;
-}
-</style>
-
-## There is nothing out there like SuperDuperDB
-
-<center>
-
-| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [PostGresML](https://postgresml.org/) | [DeepLake]() | [LanceDB](https://eto.ai/) | [Continual](https://continual.ai/) | [PineCone](https://www.pinecone.io/) | [Chroma](https://docs.trychroma.com/) |
-| - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| AI models in database | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Open Source | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
-| Unified environment | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |❌| ❌ |
-| Train AI models in database | ✅ | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ❌ |
-| Vector Search | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Scalable compute | ✅ | ❌ | ✅ | ❌ | ❓ | ❌ | ✅ | ❌ |
-| Python first | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Flexible data types | ✅ | ❌ | ❌ | ✅ | ✅ | ❓ | ❌ | ❌ |
-| Arbitrary AI models | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ |❌| ❌ |
-| Arbitrary datastore |✅  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-</center>
 
 ---
 
