@@ -90,6 +90,16 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
+## SuperDuperDB minimizes overhead and revolutionizes AI capabilities
+
+- Training and deployment of AI models massively simplified
+- AI models become easily accessible to independent developers as well as organizations
+- Model outputs instantly available in known data environment for various teams and apps
+- AI models can perform entirely new operations by having direct access to all data 
+- AI handles new incoming data and streaming automatically
+
+---
+
 ## Key Features
 
 - Install **arbitrary** models in **a range of** datastores
@@ -110,8 +120,8 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 # Rough Roadmap 6 Months
 
-1. Enable full range of API provides: OpenAI, CohereAI, etc..
-2. Develop demonstrative use-cases based on MongoDB (see below)
+1. Enable full range of API providers: OpenAI, CohereAI, etc..
+2. Develop a range of demo use-cases based on MongoDB (see below)
 3. Add support for SQL: DuckDB and Apache Iceberg on s3 as use-cases
 4. Develop infrastructure for SuperDuperDB on Kubernetes
   a. Scalable compute
@@ -228,17 +238,7 @@ Instantly install a full stack of e-commerce search and navigation, including im
 >>> docs.find({'brand': 'Adidas'}, like={'query': 'leopard print t-shirt'})
 >>> docs.find({'brand': 'Nike'}, like={'image': {'_content': {'url': '<image-url'}}})
 ```
-
----
-
-## SuperDuperDB minimizes overhead and revolutionizes AI capabilities
-
-- Training and deployment of AI models massively simplified
-- AI models become easily accessible to independent developers as well as organizations
-- Model outputs instantly available in known data environment for various teams and apps
-- AI models can perform entirely new operations by having direct access to all data 
-- AI handles new incoming data and streaming automatically
-
+<!-- 
 ---
 
 ## SuperDuperDB will allow companies to fully own their AI and data stack
@@ -246,9 +246,9 @@ Instantly install a full stack of e-commerce search and navigation, including im
 ### The SuperDuperDB core codebase will be open sourced under Apache License 2.0
 
 - Companies will be able to deploy their AI and models in a unified way in their own data centers.
-- Their entire stack will be transparent and no longer locked in behind SaaS and cloud providers.
+- Their entire stack will be transparent and no longer locked in behind SaaS and cloud providers. -->
 
----
+<!-- ---
 
 ## SuperDuperDB enables a variety of well tested business models
 
@@ -256,7 +256,7 @@ Instantly install a full stack of e-commerce search and navigation, including im
 - On premises solution with technical support
 - Model repository (like "App Store")
 - Consulting
-- Certifications
+- Certifications -->
 
 ---
 
@@ -289,7 +289,7 @@ Both [managed database](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-ma
 </div>
 </div>
 
----
+<!-- ---
 
 ## Using SuperDuperDB we will be able to instantly spawn managed services wherever AI provides substantial value
 
@@ -304,9 +304,9 @@ Both [managed database](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-ma
 
 ## We will build and offer specialized functionalities for key verticals 
 
-![center w:700](images/verticals-horizontals.svg)
+![center w:700](images/verticals-horizontals.svg) -->
 
-
+<!-- 
 ---
 
 ## SuperDuperDB is already in full swing
@@ -315,7 +315,7 @@ Both [managed database](https://blogs.gartner.com/merv-adrian/2022/04/16/dbms-ma
 
 - Working prototype v0.1 in Python
 - Installable via Python `pip`
-- Outstanding feedback from inner developer circle
+- Outstanding feedback from inner developer circle -->
 
 ---
 
@@ -389,7 +389,7 @@ CEO: Operations, marketing, sales
 
 ### Oleksandr Dashyn [:link:](https://www.linkedin.com/in/oleksandr-danshyn/), BSc Engineering
 
-- Serial founder (CTO/ CPO/ CEO)
+- Experience as CTO/ CPO/ CEO of several startups
 - Full stack engineer
 - Fully fledged data engineer - Data Robot 2015-18
 - Co-created [Neu.ro](https://neu.ro/)
@@ -413,7 +413,7 @@ CEO: Operations, marketing, sales
 ![center](images/timeline.svg)
 
 
----
+<!-- ---
 
 ## Strategy: Open-core
 
@@ -475,4 +475,4 @@ CEO: Operations, marketing, sales
 - Bespoke models for key use-cases
 - In-house team of data-scientists and SuperDuperDB specialists build models
 - Integration to hosted or non-hosted SuperDuperDB deployment
-- Per-request or per-model pricing possible
+- Per-request or per-model pricing possible -->
