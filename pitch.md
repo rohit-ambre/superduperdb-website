@@ -100,10 +100,40 @@ The AI lifecycle is highly complex, interdependent but fragmented.
 
 ---
 
+<style scoped>
+table {
+  font-size: 15px;
+}
+</style>
+
+## There is nothing out there like SuperDuperDB
+
+<center>
+
+| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [PostGresML](https://postgresml.org/) | [DeepLake](https://www.deeplake.ai/) | [LanceDB](https://eto.ai/) | [Continual](https://continual.ai/) | [PineCone](https://www.pinecone.io/) | [Chroma](https://docs.trychroma.com/) |
+| - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| AI models in database | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Open Source | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+| Unified environment | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |❌| ❌ |
+| Train AI models in database | ✅ | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ❌ |
+| Vector Search | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
+| Scalable compute | ✅ | ❌ | ✅ | ❌ | ❓ | ❌ | ✅ | ❌ |
+| Python first | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Flexible data types | ✅ | ❌ | ❌ | ✅ | ✅ | ❓ | ❌ | ❌ |
+| Arbitrary AI models | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ |❌| ❌ |
+| Arbitrary datastore |✅  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Work natively with datastore |✅  | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Continuous data capture |✅  | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+</center>
+
+---
+
 ## Key Features
 
 - Install **arbitrary** models in **a range of** datastores
 - Train these models flexible directly with the datastore
+- Users can work *natively* with their database and client of choice
 - Query model outputs using vector search and beyond
 - End-2-end open source
 - Scalable deployment on Kubernetes
@@ -133,32 +163,6 @@ The AI lifecycle is highly complex, interdependent but fragmented.
   c. Usage monitoring
   d. Logging
 
----
-
-<style scoped>
-table {
-  font-size: 15px;
-}
-</style>
-
-## There is nothing out there like SuperDuperDB
-
-<center>
-
-| | [SuperDuperDB](https://www.superduperdb.com/) | [MindsDB](https://mindsdb.com/) | [PostGresML](https://postgresml.org/) | [DeepLake](https://www.deeplake.ai/) | [LanceDB](https://eto.ai/) | [Continual](https://continual.ai/) | [PineCone](https://www.pinecone.io/) | [Chroma](https://docs.trychroma.com/) |
-| - | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| AI models in database | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Open Source | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
-| Unified environment | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |❌| ❌ |
-| Train AI models in database | ✅ | ✅ | ✅ | ❓ | ❌ | ❌ | ❌ | ❌ |
-| Vector Search | ✅ | ❌ | ✅ | ❌ | ✅ | ✅ | ✅ | ✅ |
-| Scalable compute | ✅ | ❌ | ✅ | ❌ | ❓ | ❌ | ✅ | ❌ |
-| Python first | ✅ | ❌ | ❌ | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Flexible data types | ✅ | ❌ | ❌ | ✅ | ✅ | ❓ | ❌ | ❌ |
-| Arbitrary AI models | ✅ | ❌ | ❌ | ✅ | ❌ | ❌ |❌| ❌ |
-| Arbitrary datastore |✅  | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-
-</center>
 
 ---
 
